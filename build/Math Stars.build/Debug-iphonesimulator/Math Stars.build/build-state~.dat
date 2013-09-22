@@ -1,0 +1,1165 @@
+TMath Stars
+v3
+r1
+cCheck dependencies
+cProcessInfoPlistFile "/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/Math Stars.app/Info.plist" "Math Stars-Info.plist"
+cCompileXIB /Users/laurawhite/Desktop/MathStars2.0/Classes/../MainWindow.xib
+cCompileXIB /Users/laurawhite/Desktop/MathStars2.0/Classes/../MathStarsViewController.xib
+cCompileXIB /Users/laurawhite/Desktop/MathStars2.0/Classes/GameViewController.xib
+cCpResource backBoard.png "build/Debug-iphonesimulator/Math Stars.app/backBoard.png"
+cCpResource buttonback.png "build/Debug-iphonesimulator/Math Stars.app/buttonback.png"
+cCpResource star.png "build/Debug-iphonesimulator/Math Stars.app/star.png"
+cCpResource comboStar.png "build/Debug-iphonesimulator/Math Stars.app/comboStar.png"
+cCpResource Pinball.mp3 "build/Debug-iphonesimulator/Math Stars.app/Pinball.mp3"
+cCpResource Tafi.mp3 "build/Debug-iphonesimulator/Math Stars.app/Tafi.mp3"
+cCpResource FBDialog.bundle "build/Debug-iphonesimulator/Math Stars.app/FBDialog.bundle"
+cCpResource clap.wav "build/Debug-iphonesimulator/Math Stars.app/clap.wav"
+cCpResource hmm.wav "build/Debug-iphonesimulator/Math Stars.app/hmm.wav"
+cCpResource icon2x.png "build/Debug-iphonesimulator/Math Stars.app/icon2x.png"
+cCpResource icon.png "build/Debug-iphonesimulator/Math Stars.app/icon.png"
+cCpResource RightAnswer.mp3 "build/Debug-iphonesimulator/Math Stars.app/RightAnswer.mp3"
+cCpResource WrongAnswer.mp3 "build/Debug-iphonesimulator/Math Stars.app/WrongAnswer.mp3"
+cCpResource RightAnswer.wav "build/Debug-iphonesimulator/Math Stars.app/RightAnswer.wav"
+cCpResource WrongAnswer.wav "build/Debug-iphonesimulator/Math Stars.app/WrongAnswer.wav"
+cCpResource Number_Star100.png "build/Debug-iphonesimulator/Math Stars.app/Number_Star100.png"
+cCpResource Classes/Smiling_Star.png "build/Debug-iphonesimulator/Math Stars.app/Smiling_Star.png"
+cCpResource NonSmiling_Star200.png "build/Debug-iphonesimulator/Math Stars.app/NonSmiling_Star200.png"
+cCpResource MathStarsIcon57pix.png "build/Debug-iphonesimulator/Math Stars.app/MathStarsIcon57pix.png"
+cCpResource MathStarsIcon114pix.png "build/Debug-iphonesimulator/Math Stars.app/MathStarsIcon114pix.png"
+cCpResource MathStarsIcon512pix.png "build/Debug-iphonesimulator/Math Stars.app/MathStarsIcon512pix.png"
+cCompileXIB /Users/laurawhite/Desktop/MathStars2.0/iPad/MainWindow-iPad.xib
+cProcessPCH "/var/folders/QD/QDloithKH9mM4SeXJ1aCak+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Math Stars_Prefix-bxttfcftdyjvlwakhlkhzgustgli/Math Stars_Prefix.pch.gch" "Math Stars_Prefix.pch" normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Objects-normal/i386/main.o" /Users/laurawhite/Desktop/MathStars2.0/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Objects-normal/i386/MathStarsAppDelegate.o" /Users/laurawhite/Desktop/MathStars2.0/Classes/MathStarsAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Objects-normal/i386/MathStarsViewController.o" /Users/laurawhite/Desktop/MathStars2.0/Classes/MathStarsViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Objects-normal/i386/GameViewController.o" /Users/laurawhite/Desktop/MathStars2.0/Classes/GameViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Objects-normal/i386/Facebook.o" /Users/laurawhite/Desktop/MathStars2.0/Facebook.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Objects-normal/i386/FBDialog.o" /Users/laurawhite/Desktop/MathStars2.0/FBDialog.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Objects-normal/i386/FBLoginDialog.o" /Users/laurawhite/Desktop/MathStars2.0/FBLoginDialog.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Objects-normal/i386/FBRequest.o" /Users/laurawhite/Desktop/MathStars2.0/FBRequest.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Objects-normal/i386/FacebookManager.o" /Users/laurawhite/Desktop/MathStars2.0/FacebookManager.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Objects-normal/i386/NSObject+SBJSON.o" /Users/laurawhite/Desktop/MathStars2.0/NSObject+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Objects-normal/i386/NSString+SBJSON.o" /Users/laurawhite/Desktop/MathStars2.0/NSString+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Objects-normal/i386/SBJSON.o" /Users/laurawhite/Desktop/MathStars2.0/SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Objects-normal/i386/SBJsonBase.o" /Users/laurawhite/Desktop/MathStars2.0/SBJsonBase.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Objects-normal/i386/SBJsonParser.o" /Users/laurawhite/Desktop/MathStars2.0/SBJsonParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Objects-normal/i386/SBJsonWriter.o" /Users/laurawhite/Desktop/MathStars2.0/SBJsonWriter.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/Math Stars.app/Math Stars" normal i386
+cGenerateDSYMFile "/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/Math Stars.app.dSYM" "/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/Math Stars.app/Math Stars"
+cTouch "/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/Math Stars.app"
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
+c000000004DED76DD0000000000000110
+t1307408093
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000004D93ED2500000000001340C0
+t1301540133
+s1261760
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVAudioPlayer.h
+c000000004D93ED1E00000000000012F8
+t1301540126
+s4856
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004D93DF4C0000000000205F50
+t1301536588
+s2121552
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.h
+c000000004D93DF360000000000000A23
+t1301536566
+s2595
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004D93DF6900000000002999B0
+t1301536617
+s2726320
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D93DFEA000000000029DA70
+t1301536746
+s2742896
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D93DFDD0000000000001466
+t1301536733
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/GameKit.framework/GameKit
+c000000004D99FB37000000000018FBB0
+t1301936951
+s1637296
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/GameKit.framework/Headers/GameKit.h
+c000000004D99FB270000000000000348
+t1301936935
+s840
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004D93ECBE0000000000000AA1
+t1301540030
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004D93ED1B0000000000766870
+t1301540123
+s7759984
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/iAd.framework/iAd
+c000000004D99FC72000000000003E070
+t1301937266
+s254064
+
+N/Users/laurawhite/Desktop/MathStars2.0/Classes/../MainWindow.xib
+c000000004E8A408600000000000020F2
+t1317683334
+s8434
+
+N/Users/laurawhite/Desktop/MathStars2.0/Classes/../MathStarsViewController.xib
+c000000004E8A505C000000000000AE6D
+t1317687388
+s44653
+
+N/Users/laurawhite/Desktop/MathStars2.0/Classes/GameViewController.h
+c000000004E8A4C8E0000000000000817
+t1317686414
+s2071
+i<UIKit/UIKit.h>
+i<AVFoundation/AVAudioPlayer.h>
+i<AudioToolbox/AudioToolbox.h>
+
+N/Users/laurawhite/Desktop/MathStars2.0/Classes/GameViewController.m
+c000000004E8A524C0000000000006FD4
+t1317687884
+s28628
+i"GameViewController.h"
+i"FacebookManager.h"
+i"MathStarsAppDelegate.h"
+
+N/Users/laurawhite/Desktop/MathStars2.0/Classes/GameViewController.xib
+c000000004E8A40860000000000016018
+t1317683334
+s90136
+
+N/Users/laurawhite/Desktop/MathStars2.0/Classes/MathStarsAppDelegate.h
+c000000004E4704610000000000000221
+t1313277025
+s545
+i<UIKit/UIKit.h>
+i<AVFoundation/AVAudioPlayer.h>
+
+N/Users/laurawhite/Desktop/MathStars2.0/Classes/MathStarsAppDelegate.m
+c000000004E470461000000000000102F
+t1313277025
+s4143
+i"MathStarsAppDelegate.h"
+i"MathStarsViewController.h"
+
+N/Users/laurawhite/Desktop/MathStars2.0/Classes/MathStarsViewController.h
+c000000004E4704610000000000000247
+t1313277025
+s583
+i<UIKit/UIKit.h>
+
+N/Users/laurawhite/Desktop/MathStars2.0/Classes/MathStarsViewController.m
+c000000004E8A4F850000000000001221
+t1317687173
+s4641
+i"MathStarsViewController.h"
+i"GameViewController.h"
+i"MathStarsAppDelegate.h"
+
+N/Users/laurawhite/Desktop/MathStars2.0/Classes/Smiling_Star.png
+c000000004E2A520E0000000000006F54
+t1311396366
+s28500
+
+N/Users/laurawhite/Desktop/MathStars2.0/FBDialog.bundle
+c000000004DDF1E180000000000000066
+t1306467864
+s102
+
+N/Users/laurawhite/Desktop/MathStars2.0/FBDialog.h
+c000000004DDF1E180000000000001246
+t1306467864
+s4678
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/laurawhite/Desktop/MathStars2.0/FBDialog.m
+c000000004DDF1E18000000000000576F
+t1306467864
+s22383
+i"FBDialog.h"
+i"Facebook.h"
+
+N/Users/laurawhite/Desktop/MathStars2.0/FBLoginDialog.h
+c000000004DDF1E18000000000000056B
+t1306467864
+s1387
+i"FBDialog.h"
+
+N/Users/laurawhite/Desktop/MathStars2.0/FBLoginDialog.m
+c000000004DDF1E180000000000000BC4
+t1306467864
+s3012
+i"FBDialog.h"
+i"FBLoginDialog.h"
+
+N/Users/laurawhite/Desktop/MathStars2.0/FBRequest.h
+c000000004DDF1E180000000000000CD7
+t1306467864
+s3287
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/laurawhite/Desktop/MathStars2.0/FBRequest.m
+c000000004DDF1E180000000000002C7A
+t1306467864
+s11386
+i"FBRequest.h"
+i"JSON.h"
+
+N/Users/laurawhite/Desktop/MathStars2.0/Facebook.h
+c000000004DDF1E180000000000000DBC
+t1306467864
+s3516
+i"FBLoginDialog.h"
+i"FBRequest.h"
+
+N/Users/laurawhite/Desktop/MathStars2.0/Facebook.m
+c000000004E46FD410000000000005DBF
+t1313275201
+s23999
+i"Facebook.h"
+i"FBLoginDialog.h"
+i"FBRequest.h"
+
+N/Users/laurawhite/Desktop/MathStars2.0/FacebookManager.h
+c000000004DF7C9A700000000000002DC
+t1308084647
+s732
+i<Foundation/Foundation.h>
+i"Facebook.h"
+
+N/Users/laurawhite/Desktop/MathStars2.0/FacebookManager.m
+c000000004E46FE490000000000000987
+t1313275465
+s2439
+i"FacebookManager.h"
+i"Facebook.h"
+
+N/Users/laurawhite/Desktop/MathStars2.0/JSON.h
+c000000004DDF1E1800000000000008F9
+t1306467864
+s2297
+i"SBJSON.h"
+i"NSObject+SBJSON.h"
+i"NSString+SBJSON.h"
+
+N/Users/laurawhite/Desktop/MathStars2.0/Math Stars_Prefix.pch
+c000000004E47006800000000000000B6
+t1313276008
+s182
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i<GameKit/GameKit.h>
+
+N/Users/laurawhite/Desktop/MathStars2.0/MathStarsIcon114pix.png
+c000000004E47E4500000000000004933
+t1313334352
+s18739
+
+N/Users/laurawhite/Desktop/MathStars2.0/MathStarsIcon512pix.png
+c000000004E47E2FD000000000002D0D5
+t1313334013
+s184533
+
+N/Users/laurawhite/Desktop/MathStars2.0/MathStarsIcon57pix.png
+c000000004E47E42A00000000000019CE
+t1313334314
+s6606
+
+N/Users/laurawhite/Desktop/MathStars2.0/NSObject+SBJSON.h
+c000000004DDF1E180000000000000A01
+t1306467864
+s2561
+i<Foundation/Foundation.h>
+
+N/Users/laurawhite/Desktop/MathStars2.0/NSObject+SBJSON.m
+c000000004DDF1E18000000000000089E
+t1306467864
+s2206
+i"NSObject+SBJSON.h"
+i"SBJsonWriter.h"
+
+N/Users/laurawhite/Desktop/MathStars2.0/NSString+SBJSON.h
+c000000004DDF1E180000000000000916
+t1306467864
+s2326
+i<Foundation/Foundation.h>
+
+N/Users/laurawhite/Desktop/MathStars2.0/NSString+SBJSON.m
+c000000004DDF1E18000000000000087D
+t1306467864
+s2173
+i"NSString+SBJSON.h"
+i"SBJsonParser.h"
+
+N/Users/laurawhite/Desktop/MathStars2.0/NonSmiling_Star200.png
+c000000004E2A528500000000000071A8
+t1311396485
+s29096
+
+N/Users/laurawhite/Desktop/MathStars2.0/Number_Star100.png
+c000000004E2A464E000000000000243E
+t1311393358
+s9278
+
+N/Users/laurawhite/Desktop/MathStars2.0/Pinball.mp3
+c000000004C211298000000000090114F
+t1277235864
+s9441615
+
+N/Users/laurawhite/Desktop/MathStars2.0/RightAnswer.mp3
+c000000004E0E92670000000000012DB7
+t1309577831
+s77239
+
+N/Users/laurawhite/Desktop/MathStars2.0/RightAnswer.wav
+c000000004E0E951700000000000C3CE8
+t1309578519
+s802024
+
+N/Users/laurawhite/Desktop/MathStars2.0/SBJSON.h
+c000000004DDF1E180000000000000AED
+t1306467864
+s2797
+i<Foundation/Foundation.h>
+i"SBJsonParser.h"
+i"SBJsonWriter.h"
+
+N/Users/laurawhite/Desktop/MathStars2.0/SBJSON.m
+c000000004DDF1E180000000000001ABC
+t1306467864
+s6844
+i"SBJSON.h"
+
+N/Users/laurawhite/Desktop/MathStars2.0/SBJsonBase.h
+c000000004DDF1E180000000000000B82
+t1306467864
+s2946
+i<Foundation/Foundation.h>
+
+N/Users/laurawhite/Desktop/MathStars2.0/SBJsonBase.m
+c000000004DDF1E180000000000000AC1
+t1306467864
+s2753
+i"SBJsonBase.h"
+
+N/Users/laurawhite/Desktop/MathStars2.0/SBJsonParser.h
+c000000004DDF1E180000000000000C0B
+t1306467864
+s3083
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/laurawhite/Desktop/MathStars2.0/SBJsonParser.m
+c000000004DDF1E1800000000000036D0
+t1306467864
+s14032
+i"SBJsonParser.h"
+
+N/Users/laurawhite/Desktop/MathStars2.0/SBJsonWriter.h
+c000000004DDF1E180000000000001140
+t1306467864
+s4416
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/laurawhite/Desktop/MathStars2.0/SBJsonWriter.m
+c000000004DDF1E180000000000001F26
+t1306467864
+s7974
+i"SBJsonWriter.h"
+
+N/Users/laurawhite/Desktop/MathStars2.0/Tafi.mp3
+c000000004C2112680000000000250000
+t1277235816
+s2424832
+
+N/Users/laurawhite/Desktop/MathStars2.0/WrongAnswer.mp3
+c000000004E0E92690000000000012DB7
+t1309577833
+s77239
+
+N/Users/laurawhite/Desktop/MathStars2.0/WrongAnswer.wav
+c000000004E0E964100000000000C4E2C
+t1309578817
+s806444
+
+N/Users/laurawhite/Desktop/MathStars2.0/backBoard.png
+c000000004DDEDC42000000000000488E
+t1306451010
+s18574
+
+N/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/Math Stars.app
+t2
+s0
+
+N/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/Math Stars.app.dSYM
+t2
+s0
+
+N/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/Math Stars.app/FBDialog.bundle
+t2
+s0
+
+N/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/Math Stars.app/GameViewController.nib
+t2
+s0
+
+N/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/Math Stars.app/Info.plist
+t2
+s0
+
+N/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/Math Stars.app/MainWindow-iPad.nib
+t2
+s0
+
+N/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/Math Stars.app/MainWindow.nib
+t2
+s0
+
+N/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/Math Stars.app/Math Stars
+t2
+s0
+
+N/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/Math Stars.app/MathStarsIcon114pix.png
+t2
+s0
+
+N/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/Math Stars.app/MathStarsIcon512pix.png
+t2
+s0
+
+N/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/Math Stars.app/MathStarsIcon57pix.png
+t2
+s0
+
+N/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/Math Stars.app/MathStarsViewController.nib
+t2
+s0
+
+N/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/Math Stars.app/NonSmiling_Star200.png
+t2
+s0
+
+N/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/Math Stars.app/Number_Star100.png
+t2
+s0
+
+N/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/Math Stars.app/Pinball.mp3
+t2
+s0
+
+N/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/Math Stars.app/PkgInfo
+t2
+s0
+
+N/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/Math Stars.app/RightAnswer.mp3
+t2
+s0
+
+N/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/Math Stars.app/RightAnswer.wav
+t2
+s0
+
+N/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/Math Stars.app/Smiling_Star.png
+t2
+s0
+
+N/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/Math Stars.app/Tafi.mp3
+t2
+s0
+
+N/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/Math Stars.app/WrongAnswer.mp3
+t2
+s0
+
+N/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/Math Stars.app/WrongAnswer.wav
+t2
+s0
+
+N/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/Math Stars.app/backBoard.png
+t2
+s0
+
+N/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/Math Stars.app/buttonback.png
+t2
+s0
+
+N/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/Math Stars.app/clap.wav
+t2
+s0
+
+N/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/Math Stars.app/comboStar.png
+t2
+s0
+
+N/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/Math Stars.app/hmm.wav
+t2
+s0
+
+N/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/Math Stars.app/icon.png
+t2
+s0
+
+N/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/Math Stars.app/icon2x.png
+t2
+s0
+
+N/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/Math Stars.app/star.png
+t2
+s0
+
+N/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Objects-normal/i386/FBDialog.o
+t2
+s0
+
+N/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Objects-normal/i386/FBLoginDialog.o
+t2
+s0
+
+N/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Objects-normal/i386/FBRequest.o
+t2
+s0
+
+N/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Objects-normal/i386/Facebook.o
+t2
+s0
+
+N/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Objects-normal/i386/FacebookManager.o
+t2
+s0
+
+N/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Objects-normal/i386/GameViewController.o
+t2
+s0
+
+N/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Objects-normal/i386/Math Stars.LinkFileList
+c000000004E8A527D0000000000000800
+t1317687933
+s2048
+
+N/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Objects-normal/i386/MathStarsAppDelegate.o
+t2
+s0
+
+N/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Objects-normal/i386/MathStarsViewController.o
+t2
+s0
+
+N/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Objects-normal/i386/NSObject+SBJSON.o
+t2
+s0
+
+N/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Objects-normal/i386/NSString+SBJSON.o
+t2
+s0
+
+N/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Objects-normal/i386/SBJSON.o
+t2
+s0
+
+N/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Objects-normal/i386/SBJsonBase.o
+t2
+s0
+
+N/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Objects-normal/i386/SBJsonParser.o
+t2
+s0
+
+N/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Objects-normal/i386/SBJsonWriter.o
+t2
+s0
+
+N/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/laurawhite/Desktop/MathStars2.0/buttonback.png
+c000000004DE571870000000000000CD1
+t1306882439
+s3281
+
+N/Users/laurawhite/Desktop/MathStars2.0/clap.wav
+c000000004E0E1CF40000000000023F58
+t1309547764
+s147288
+
+N/Users/laurawhite/Desktop/MathStars2.0/comboStar.png
+c000000004DEC37AE0000000000001DEB
+t1307326382
+s7659
+
+N/Users/laurawhite/Desktop/MathStars2.0/hmm.wav
+c0000000049B59FA60000000000011430
+t1236639654
+s70704
+
+N/Users/laurawhite/Desktop/MathStars2.0/iPad/MainWindow-iPad.xib
+c000000004E8A3E270000000000003F21
+t1317682727
+s16161
+
+N/Users/laurawhite/Desktop/MathStars2.0/icon.png
+c000000004E0E2CA800000000000017D3
+t1309551784
+s6099
+
+N/Users/laurawhite/Desktop/MathStars2.0/icon2x.png
+c000000004E0E2C460000000000003F44
+t1309551686
+s16196
+
+N/Users/laurawhite/Desktop/MathStars2.0/main.m
+c000000004E47006D00000000000000F8
+t1313276013
+s248
+i<UIKit/UIKit.h>
+
+N/Users/laurawhite/Desktop/MathStars2.0/star.png
+c000000004DEC37DA0000000000001129
+t1307326426
+s4393
+
+N/var/folders/QD/QDloithKH9mM4SeXJ1aCak+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Math Stars_Prefix-bxttfcftdyjvlwakhlkhzgustgli/Math Stars_Prefix.pch.gch
+t2
+s0
+
+NMath Stars-Info.plist
+c000000004E8A3E27000000000000058B
+t1317682727
+s1419
+
+CBuild AST from /Users/laurawhite/Desktop/MathStars2.0/Classes/GameViewController.m
+r0
+
+CBuild AST from /Users/laurawhite/Desktop/MathStars2.0/Classes/MathStarsAppDelegate.m
+r0
+
+CBuild AST from /Users/laurawhite/Desktop/MathStars2.0/Classes/MathStarsViewController.m
+r0
+
+CBuild AST from /Users/laurawhite/Desktop/MathStars2.0/FBDialog.m
+r0
+
+CBuild AST from /Users/laurawhite/Desktop/MathStars2.0/FBLoginDialog.m
+r0
+
+CBuild AST from /Users/laurawhite/Desktop/MathStars2.0/FBRequest.m
+r0
+
+CBuild AST from /Users/laurawhite/Desktop/MathStars2.0/Facebook.m
+r0
+
+CBuild AST from /Users/laurawhite/Desktop/MathStars2.0/FacebookManager.m
+r0
+
+CBuild AST from /Users/laurawhite/Desktop/MathStars2.0/NSObject+SBJSON.m
+r0
+
+CBuild AST from /Users/laurawhite/Desktop/MathStars2.0/NSString+SBJSON.m
+r0
+
+CBuild AST from /Users/laurawhite/Desktop/MathStars2.0/SBJSON.m
+r0
+
+CBuild AST from /Users/laurawhite/Desktop/MathStars2.0/SBJsonBase.m
+r0
+
+CBuild AST from /Users/laurawhite/Desktop/MathStars2.0/SBJsonParser.m
+r0
+
+CBuild AST from /Users/laurawhite/Desktop/MathStars2.0/SBJsonWriter.m
+r0
+
+CBuild AST from /Users/laurawhite/Desktop/MathStars2.0/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies193705fd893ab441^dc6725fd893ab441^---0#1#0#--18"Check dependencies
+
+CCompileC "build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Objects-normal/i386/FBDialog.o" /Users/laurawhite/Desktop/MathStars2.0/FBDialog.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s339380738.673358
+e339380738.936449
+r1
+xCompileC
+xbuild/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Objects-normal/i386/FBDialog.o
+x/Users/laurawhite/Desktop/MathStars2.0/FBDialog.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Compile /Users/laurawhite/Desktop/MathStars2.0/FBDialog.maa7fac028a3ab441^b0c8ef028a3ab441^---0#0#0#-19%DVTDocumentLocation2@65"file://localhost/Users/laurawhite/Desktop/MathStars2.0/FBDialog.m0000000000000000^2206"CompileC "build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Objects-normal/i386/FBDialog.o" FBDialog.m normal i386 objective-c com.apple.compilers.gcc.4_2    cd /Users/laurawhite/Desktop/MathStars2.0    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote "/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Math Stars-generated-files.hmap" "-I/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Math Stars-own-target-headers.hmap" "-I/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Math Stars-all-target-headers.hmap" -iquote "/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Math Stars-project-headers.hmap" -I/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/include "-I/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/DerivedSources/i386" "-I/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/DerivedSources" -F/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator -F/Users/laurawhite/Desktop/MathStars2.0 -include "/var/folders/QD/QDloithKH9mM4SeXJ1aCak+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Math Stars_Prefix-bxttfcftdyjvlwakhlkhzgustgli/Math Stars_Prefix.pch" -c /Users/laurawhite/Desktop/MathStars2.0/FBDialog.m -o "/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Objects-normal/i386/FBDialog.o"
+
+CCompileC "build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Objects-normal/i386/FBLoginDialog.o" /Users/laurawhite/Desktop/MathStars2.0/FBLoginDialog.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s339380738.765628
+e339380738.857038
+r1
+xCompileC
+xbuild/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Objects-normal/i386/FBLoginDialog.o
+x/Users/laurawhite/Desktop/MathStars2.0/FBLoginDialog.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Compile /Users/laurawhite/Desktop/MathStars2.0/FBLoginDialog.mb328c4028a3ab441^f277db028a3ab441^---0#0#0#-19%DVTDocumentLocation2@70"file://localhost/Users/laurawhite/Desktop/MathStars2.0/FBLoginDialog.m0000000000000000^2226"CompileC "build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Objects-normal/i386/FBLoginDialog.o" FBLoginDialog.m normal i386 objective-c com.apple.compilers.gcc.4_2    cd /Users/laurawhite/Desktop/MathStars2.0    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote "/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Math Stars-generated-files.hmap" "-I/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Math Stars-own-target-headers.hmap" "-I/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Math Stars-all-target-headers.hmap" -iquote "/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Math Stars-project-headers.hmap" -I/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/include "-I/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/DerivedSources/i386" "-I/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/DerivedSources" -F/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator -F/Users/laurawhite/Desktop/MathStars2.0 -include "/var/folders/QD/QDloithKH9mM4SeXJ1aCak+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Math Stars_Prefix-bxttfcftdyjvlwakhlkhzgustgli/Math Stars_Prefix.pch" -c /Users/laurawhite/Desktop/MathStars2.0/FBLoginDialog.m -o "/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Objects-normal/i386/FBLoginDialog.o"
+
+CCompileC "build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Objects-normal/i386/FBRequest.o" /Users/laurawhite/Desktop/MathStars2.0/FBRequest.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s339380738.858383
+e339380738.990310
+r1
+xCompileC
+xbuild/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Objects-normal/i386/FBRequest.o
+x/Users/laurawhite/Desktop/MathStars2.0/FBRequest.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Compile /Users/laurawhite/Desktop/MathStars2.0/FBRequest.mf9dadb028a3ab441^828ffd028a3ab441^---0#0#0#-19%DVTDocumentLocation2@66"file://localhost/Users/laurawhite/Desktop/MathStars2.0/FBRequest.m0000000000000000^2210"CompileC "build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Objects-normal/i386/FBRequest.o" FBRequest.m normal i386 objective-c com.apple.compilers.gcc.4_2    cd /Users/laurawhite/Desktop/MathStars2.0    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote "/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Math Stars-generated-files.hmap" "-I/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Math Stars-own-target-headers.hmap" "-I/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Math Stars-all-target-headers.hmap" -iquote "/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Math Stars-project-headers.hmap" -I/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/include "-I/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/DerivedSources/i386" "-I/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/DerivedSources" -F/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator -F/Users/laurawhite/Desktop/MathStars2.0 -include "/var/folders/QD/QDloithKH9mM4SeXJ1aCak+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Math Stars_Prefix-bxttfcftdyjvlwakhlkhzgustgli/Math Stars_Prefix.pch" -c /Users/laurawhite/Desktop/MathStars2.0/FBRequest.m -o "/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Objects-normal/i386/FBRequest.o"
+
+CCompileC "build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Objects-normal/i386/Facebook.o" /Users/laurawhite/Desktop/MathStars2.0/Facebook.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s339380738.533557
+e339380738.670978
+r1
+xCompileC
+xbuild/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Objects-normal/i386/Facebook.o
+x/Users/laurawhite/Desktop/MathStars2.0/Facebook.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Compile /Users/laurawhite/Desktop/MathStars2.0/Facebook.mf3e688028a3ab441^f2d0ab028a3ab441^---0#0#0#-19%DVTDocumentLocation2@65"file://localhost/Users/laurawhite/Desktop/MathStars2.0/Facebook.m0000000000000000^2206"CompileC "build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Objects-normal/i386/Facebook.o" Facebook.m normal i386 objective-c com.apple.compilers.gcc.4_2    cd /Users/laurawhite/Desktop/MathStars2.0    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote "/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Math Stars-generated-files.hmap" "-I/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Math Stars-own-target-headers.hmap" "-I/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Math Stars-all-target-headers.hmap" -iquote "/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Math Stars-project-headers.hmap" -I/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/include "-I/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/DerivedSources/i386" "-I/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/DerivedSources" -F/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator -F/Users/laurawhite/Desktop/MathStars2.0 -include "/var/folders/QD/QDloithKH9mM4SeXJ1aCak+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Math Stars_Prefix-bxttfcftdyjvlwakhlkhzgustgli/Math Stars_Prefix.pch" -c /Users/laurawhite/Desktop/MathStars2.0/Facebook.m -o "/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Objects-normal/i386/Facebook.o"
+
+CCompileC "build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Objects-normal/i386/FacebookManager.o" /Users/laurawhite/Desktop/MathStars2.0/FacebookManager.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s339380738.937663
+e339380739.108760
+r1
+xCompileC
+xbuild/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Objects-normal/i386/FacebookManager.o
+x/Users/laurawhite/Desktop/MathStars2.0/FacebookManager.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Compile /Users/laurawhite/Desktop/MathStars2.0/FacebookManager.m6b29f0028a3ab441^84d61b038a3ab441^---0#0#0#-19%DVTDocumentLocation2@72"file://localhost/Users/laurawhite/Desktop/MathStars2.0/FacebookManager.m0000000000000000^2234"CompileC "build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Objects-normal/i386/FacebookManager.o" FacebookManager.m normal i386 objective-c com.apple.compilers.gcc.4_2    cd /Users/laurawhite/Desktop/MathStars2.0    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote "/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Math Stars-generated-files.hmap" "-I/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Math Stars-own-target-headers.hmap" "-I/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Math Stars-all-target-headers.hmap" -iquote "/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Math Stars-project-headers.hmap" -I/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/include "-I/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/DerivedSources/i386" "-I/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/DerivedSources" -F/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator -F/Users/laurawhite/Desktop/MathStars2.0 -include "/var/folders/QD/QDloithKH9mM4SeXJ1aCak+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Math Stars_Prefix-bxttfcftdyjvlwakhlkhzgustgli/Math Stars_Prefix.pch" -c /Users/laurawhite/Desktop/MathStars2.0/FacebookManager.m -o "/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Objects-normal/i386/FacebookManager.o"
+
+CCompileC "build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Objects-normal/i386/GameViewController.o" /Users/laurawhite/Desktop/MathStars2.0/Classes/GameViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s339380738.277174
+e339380738.764425
+r1
+xCompileC
+xbuild/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Objects-normal/i386/GameViewController.o
+x/Users/laurawhite/Desktop/MathStars2.0/Classes/GameViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compile /Users/laurawhite/Desktop/MathStars2.0/Classes/GameViewController.m1b1247028a3ab441^0abcc3028a3ab441^---0#0#0#-19%DVTDocumentLocation2@83"file://localhost/Users/laurawhite/Desktop/MathStars2.0/Classes/GameViewController.m0000000000000000^2262"CompileC "build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Objects-normal/i386/GameViewController.o" Classes/GameViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2    cd /Users/laurawhite/Desktop/MathStars2.0    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote "/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Math Stars-generated-files.hmap" "-I/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Math Stars-own-target-headers.hmap" "-I/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Math Stars-all-target-headers.hmap" -iquote "/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Math Stars-project-headers.hmap" -I/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/include "-I/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/DerivedSources/i386" "-I/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/DerivedSources" -F/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator -F/Users/laurawhite/Desktop/MathStars2.0 -include "/var/folders/QD/QDloithKH9mM4SeXJ1aCak+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Math Stars_Prefix-bxttfcftdyjvlwakhlkhzgustgli/Math Stars_Prefix.pch" -c /Users/laurawhite/Desktop/MathStars2.0/Classes/GameViewController.m -o "/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Objects-normal/i386/GameViewController.o"
+
+CCompileC "build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Objects-normal/i386/MathStarsAppDelegate.o" /Users/laurawhite/Desktop/MathStars2.0/Classes/MathStarsAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s339380738.028152
+e339380738.275954
+r1
+xCompileC
+xbuild/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Objects-normal/i386/MathStarsAppDelegate.o
+x/Users/laurawhite/Desktop/MathStars2.0/Classes/MathStarsAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/laurawhite/Desktop/MathStars2.0/Classes/MathStarsAppDelegate.m444e07028a3ab441^c0ae46028a3ab441^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/laurawhite/Desktop/MathStars2.0/Classes/MathStarsAppDelegate.m0000000000000000^2270"CompileC "build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Objects-normal/i386/MathStarsAppDelegate.o" Classes/MathStarsAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2    cd /Users/laurawhite/Desktop/MathStars2.0    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote "/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Math Stars-generated-files.hmap" "-I/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Math Stars-own-target-headers.hmap" "-I/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Math Stars-all-target-headers.hmap" -iquote "/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Math Stars-project-headers.hmap" -I/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/include "-I/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/DerivedSources/i386" "-I/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/DerivedSources" -F/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator -F/Users/laurawhite/Desktop/MathStars2.0 -include "/var/folders/QD/QDloithKH9mM4SeXJ1aCak+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Math Stars_Prefix-bxttfcftdyjvlwakhlkhzgustgli/Math Stars_Prefix.pch" -c /Users/laurawhite/Desktop/MathStars2.0/Classes/MathStarsAppDelegate.m -o "/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Objects-normal/i386/MathStarsAppDelegate.o"
+
+CCompileC "build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Objects-normal/i386/MathStarsViewController.o" /Users/laurawhite/Desktop/MathStars2.0/Classes/MathStarsViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s339380738.171311
+e339380738.531694
+r1
+xCompileC
+xbuild/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Objects-normal/i386/MathStarsViewController.o
+x/Users/laurawhite/Desktop/MathStars2.0/Classes/MathStarsViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/laurawhite/Desktop/MathStars2.0/Classes/MathStarsViewController.m40f92b028a3ab441^a64688028a3ab441^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/laurawhite/Desktop/MathStars2.0/Classes/MathStarsViewController.m0000000000000000^2282"CompileC "build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Objects-normal/i386/MathStarsViewController.o" Classes/MathStarsViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2    cd /Users/laurawhite/Desktop/MathStars2.0    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote "/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Math Stars-generated-files.hmap" "-I/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Math Stars-own-target-headers.hmap" "-I/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Math Stars-all-target-headers.hmap" -iquote "/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Math Stars-project-headers.hmap" -I/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/include "-I/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/DerivedSources/i386" "-I/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/DerivedSources" -F/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator -F/Users/laurawhite/Desktop/MathStars2.0 -include "/var/folders/QD/QDloithKH9mM4SeXJ1aCak+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Math Stars_Prefix-bxttfcftdyjvlwakhlkhzgustgli/Math Stars_Prefix.pch" -c /Users/laurawhite/Desktop/MathStars2.0/Classes/MathStarsViewController.m -o "/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Objects-normal/i386/MathStarsViewController.o"
+
+CCompileC "build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Objects-normal/i386/NSObject+SBJSON.o" /Users/laurawhite/Desktop/MathStars2.0/NSObject+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s339380738.991542
+e339380739.127196
+r1
+xCompileC
+xbuild/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Objects-normal/i386/NSObject+SBJSON.o
+x/Users/laurawhite/Desktop/MathStars2.0/NSObject+SBJSON.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Compile /Users/laurawhite/Desktop/MathStars2.0/NSObject+SBJSON.m156f00038a3ab441^e59820038a3ab441^---0#0#0#-19%DVTDocumentLocation2@72"file://localhost/Users/laurawhite/Desktop/MathStars2.0/NSObject+SBJSON.m0000000000000000^2234"CompileC "build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Objects-normal/i386/NSObject+SBJSON.o" NSObject+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2    cd /Users/laurawhite/Desktop/MathStars2.0    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote "/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Math Stars-generated-files.hmap" "-I/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Math Stars-own-target-headers.hmap" "-I/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Math Stars-all-target-headers.hmap" -iquote "/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Math Stars-project-headers.hmap" -I/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/include "-I/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/DerivedSources/i386" "-I/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/DerivedSources" -F/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator -F/Users/laurawhite/Desktop/MathStars2.0 -include "/var/folders/QD/QDloithKH9mM4SeXJ1aCak+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Math Stars_Prefix-bxttfcftdyjvlwakhlkhzgustgli/Math Stars_Prefix.pch" -c /Users/laurawhite/Desktop/MathStars2.0/NSObject+SBJSON.m -o "/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Objects-normal/i386/NSObject+SBJSON.o"
+
+CCompileC "build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Objects-normal/i386/NSString+SBJSON.o" /Users/laurawhite/Desktop/MathStars2.0/NSString+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s339380739.118731
+e339380739.194261
+r1
+xCompileC
+xbuild/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Objects-normal/i386/NSString+SBJSON.o
+x/Users/laurawhite/Desktop/MathStars2.0/NSString+SBJSON.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Compile /Users/laurawhite/Desktop/MathStars2.0/NSString+SBJSON.m30821e038a3ab441^0aba31038a3ab441^---0#0#0#-19%DVTDocumentLocation2@72"file://localhost/Users/laurawhite/Desktop/MathStars2.0/NSString+SBJSON.m0000000000000000^2234"CompileC "build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Objects-normal/i386/NSString+SBJSON.o" NSString+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2    cd /Users/laurawhite/Desktop/MathStars2.0    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote "/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Math Stars-generated-files.hmap" "-I/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Math Stars-own-target-headers.hmap" "-I/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Math Stars-all-target-headers.hmap" -iquote "/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Math Stars-project-headers.hmap" -I/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/include "-I/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/DerivedSources/i386" "-I/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/DerivedSources" -F/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator -F/Users/laurawhite/Desktop/MathStars2.0 -include "/var/folders/QD/QDloithKH9mM4SeXJ1aCak+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Math Stars_Prefix-bxttfcftdyjvlwakhlkhzgustgli/Math Stars_Prefix.pch" -c /Users/laurawhite/Desktop/MathStars2.0/NSString+SBJSON.m -o "/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Objects-normal/i386/NSString+SBJSON.o"
+
+CCompileC "build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Objects-normal/i386/SBJSON.o" /Users/laurawhite/Desktop/MathStars2.0/SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s339380739.128385
+e339380739.233712
+r1
+xCompileC
+xbuild/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Objects-normal/i386/SBJSON.o
+x/Users/laurawhite/Desktop/MathStars2.0/SBJSON.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Compile /Users/laurawhite/Desktop/MathStars2.0/SBJSON.m7bfa20038a3ab441^c3d33b038a3ab441^---0#0#0#-19%DVTDocumentLocation2@63"file://localhost/Users/laurawhite/Desktop/MathStars2.0/SBJSON.m0000000000000000^2198"CompileC "build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Objects-normal/i386/SBJSON.o" SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2    cd /Users/laurawhite/Desktop/MathStars2.0    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote "/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Math Stars-generated-files.hmap" "-I/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Math Stars-own-target-headers.hmap" "-I/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Math Stars-all-target-headers.hmap" -iquote "/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Math Stars-project-headers.hmap" -I/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/include "-I/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/DerivedSources/i386" "-I/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/DerivedSources" -F/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator -F/Users/laurawhite/Desktop/MathStars2.0 -include "/var/folders/QD/QDloithKH9mM4SeXJ1aCak+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Math Stars_Prefix-bxttfcftdyjvlwakhlkhzgustgli/Math Stars_Prefix.pch" -c /Users/laurawhite/Desktop/MathStars2.0/SBJSON.m -o "/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Objects-normal/i386/SBJSON.o"
+
+CCompileC "build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Objects-normal/i386/SBJsonBase.o" /Users/laurawhite/Desktop/MathStars2.0/SBJsonBase.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s339380739.195629
+e339380739.275058
+r1
+xCompileC
+xbuild/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Objects-normal/i386/SBJsonBase.o
+x/Users/laurawhite/Desktop/MathStars2.0/SBJsonBase.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Compile /Users/laurawhite/Desktop/MathStars2.0/SBJsonBase.m593332038a3ab441^7b6946038a3ab441^---0#0#0#-19%DVTDocumentLocation2@67"file://localhost/Users/laurawhite/Desktop/MathStars2.0/SBJsonBase.m0000000000000000^2214"CompileC "build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Objects-normal/i386/SBJsonBase.o" SBJsonBase.m normal i386 objective-c com.apple.compilers.gcc.4_2    cd /Users/laurawhite/Desktop/MathStars2.0    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote "/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Math Stars-generated-files.hmap" "-I/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Math Stars-own-target-headers.hmap" "-I/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Math Stars-all-target-headers.hmap" -iquote "/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Math Stars-project-headers.hmap" -I/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/include "-I/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/DerivedSources/i386" "-I/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/DerivedSources" -F/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator -F/Users/laurawhite/Desktop/MathStars2.0 -include "/var/folders/QD/QDloithKH9mM4SeXJ1aCak+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Math Stars_Prefix-bxttfcftdyjvlwakhlkhzgustgli/Math Stars_Prefix.pch" -c /Users/laurawhite/Desktop/MathStars2.0/SBJsonBase.m -o "/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Objects-normal/i386/SBJsonBase.o"
+
+CCompileC "build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Objects-normal/i386/SBJsonParser.o" /Users/laurawhite/Desktop/MathStars2.0/SBJsonParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s339380739.235191
+e339380739.405114
+r1
+xCompileC
+xbuild/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Objects-normal/i386/SBJsonParser.o
+x/Users/laurawhite/Desktop/MathStars2.0/SBJsonParser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Compile /Users/laurawhite/Desktop/MathStars2.0/SBJsonParser.mf8523c038a3ab441^bbb667038a3ab441^---0#0#0#-19%DVTDocumentLocation2@69"file://localhost/Users/laurawhite/Desktop/MathStars2.0/SBJsonParser.m0000000000000000^2222"CompileC "build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Objects-normal/i386/SBJsonParser.o" SBJsonParser.m normal i386 objective-c com.apple.compilers.gcc.4_2    cd /Users/laurawhite/Desktop/MathStars2.0    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote "/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Math Stars-generated-files.hmap" "-I/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Math Stars-own-target-headers.hmap" "-I/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Math Stars-all-target-headers.hmap" -iquote "/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Math Stars-project-headers.hmap" -I/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/include "-I/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/DerivedSources/i386" "-I/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/DerivedSources" -F/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator -F/Users/laurawhite/Desktop/MathStars2.0 -include "/var/folders/QD/QDloithKH9mM4SeXJ1aCak+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Math Stars_Prefix-bxttfcftdyjvlwakhlkhzgustgli/Math Stars_Prefix.pch" -c /Users/laurawhite/Desktop/MathStars2.0/SBJsonParser.m -o "/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Objects-normal/i386/SBJsonParser.o"
+
+CCompileC "build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Objects-normal/i386/SBJsonWriter.o" /Users/laurawhite/Desktop/MathStars2.0/SBJsonWriter.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s339380739.276276
+e339380739.390849
+r1
+xCompileC
+xbuild/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Objects-normal/i386/SBJsonWriter.o
+x/Users/laurawhite/Desktop/MathStars2.0/SBJsonWriter.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Compile /Users/laurawhite/Desktop/MathStars2.0/SBJsonWriter.m0ed746038a3ab441^280e64038a3ab441^---0#0#0#-19%DVTDocumentLocation2@69"file://localhost/Users/laurawhite/Desktop/MathStars2.0/SBJsonWriter.m0000000000000000^2222"CompileC "build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Objects-normal/i386/SBJsonWriter.o" SBJsonWriter.m normal i386 objective-c com.apple.compilers.gcc.4_2    cd /Users/laurawhite/Desktop/MathStars2.0    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote "/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Math Stars-generated-files.hmap" "-I/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Math Stars-own-target-headers.hmap" "-I/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Math Stars-all-target-headers.hmap" -iquote "/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Math Stars-project-headers.hmap" -I/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/include "-I/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/DerivedSources/i386" "-I/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/DerivedSources" -F/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator -F/Users/laurawhite/Desktop/MathStars2.0 -include "/var/folders/QD/QDloithKH9mM4SeXJ1aCak+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Math Stars_Prefix-bxttfcftdyjvlwakhlkhzgustgli/Math Stars_Prefix.pch" -c /Users/laurawhite/Desktop/MathStars2.0/SBJsonWriter.m -o "/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Objects-normal/i386/SBJsonWriter.o"
+
+CCompileC "build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Objects-normal/i386/main.o" /Users/laurawhite/Desktop/MathStars2.0/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s339380738.028048
+e339380738.170085
+r1
+xCompileC
+xbuild/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Objects-normal/i386/main.o
+x/Users/laurawhite/Desktop/MathStars2.0/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Compile /Users/laurawhite/Desktop/MathStars2.0/main.m2d5f07028a3ab441^83892b028a3ab441^---0#0#0#-19%DVTDocumentLocation2@61"file://localhost/Users/laurawhite/Desktop/MathStars2.0/main.m0000000000000000^2190"CompileC "build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Objects-normal/i386/main.o" main.m normal i386 objective-c com.apple.compilers.gcc.4_2    cd /Users/laurawhite/Desktop/MathStars2.0    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote "/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Math Stars-generated-files.hmap" "-I/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Math Stars-own-target-headers.hmap" "-I/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Math Stars-all-target-headers.hmap" -iquote "/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Math Stars-project-headers.hmap" -I/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/include "-I/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/DerivedSources/i386" "-I/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/DerivedSources" -F/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator -F/Users/laurawhite/Desktop/MathStars2.0 -include "/var/folders/QD/QDloithKH9mM4SeXJ1aCak+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Math Stars_Prefix-bxttfcftdyjvlwakhlkhzgustgli/Math Stars_Prefix.pch" -c /Users/laurawhite/Desktop/MathStars2.0/main.m -o "/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Objects-normal/i386/main.o"
+
+CCompileXIB /Users/laurawhite/Desktop/MathStars2.0/Classes/../MainWindow.xib
+s339380733.168431
+e339380735.947667
+r1
+xCompileXIB
+x/Users/laurawhite/Desktop/MathStars2.0/Classes/../MainWindow.xib
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compiling /Users/laurawhite/Desktop/MathStars2.0/Classes/../MainWindow.xib0d342bfd893ab441^67edf2ff893ab441^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Users/laurawhite/Desktop/MathStars2.0/Classes/../MainWindow.xib0000000000000000^632"CompileXIB Classes/../MainWindow.xib    cd /Users/laurawhite/Desktop/MathStars2.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/Math Stars.app/MainWindow.nib" /Users/laurawhite/Desktop/MathStars2.0/Classes/../MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
+
+CCompileXIB /Users/laurawhite/Desktop/MathStars2.0/Classes/../MathStarsViewController.xib
+s339380733.169043
+e339380736.170620
+r1
+xCompileXIB
+x/Users/laurawhite/Desktop/MathStars2.0/Classes/../MathStarsViewController.xib
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compiling /Users/laurawhite/Desktop/MathStars2.0/Classes/../MathStarsViewController.xibbc5d2bfd893ab441^e2ad2b008a3ab441^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/laurawhite/Desktop/MathStars2.0/Classes/../MathStarsViewController.xib0000000000000000^671"CompileXIB Classes/../MathStarsViewController.xib    cd /Users/laurawhite/Desktop/MathStars2.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/Math Stars.app/MathStarsViewController.nib" /Users/laurawhite/Desktop/MathStars2.0/Classes/../MathStarsViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
+
+CCompileXIB /Users/laurawhite/Desktop/MathStars2.0/Classes/GameViewController.xib
+s339380735.949548
+e339380736.177750
+r1
+xCompileXIB
+x/Users/laurawhite/Desktop/MathStars2.0/Classes/GameViewController.xib
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Compiling /Users/laurawhite/Desktop/MathStars2.0/Classes/GameViewController.xibcb2bf3ff893ab441^ec862d008a3ab441^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/laurawhite/Desktop/MathStars2.0/Classes/GameViewController.xib0000000000000000^650"CompileXIB Classes/GameViewController.xib    cd /Users/laurawhite/Desktop/MathStars2.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/Math Stars.app/GameViewController.nib" /Users/laurawhite/Desktop/MathStars2.0/Classes/GameViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
+
+CCompileXIB /Users/laurawhite/Desktop/MathStars2.0/iPad/MainWindow-iPad.xib
+s339380736.816400
+e339380737.101088
+r1
+xCompileXIB
+x/Users/laurawhite/Desktop/MathStars2.0/iPad/MainWindow-iPad.xib
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compiling /Users/laurawhite/Desktop/MathStars2.0/iPad/MainWindow-iPad.xib2711d1008a3ab441^09e119018a3ab441^---0#0#0#-19%DVTDocumentLocation2@79"file://localhost/Users/laurawhite/Desktop/MathStars2.0/iPad/MainWindow-iPad.xib0000000000000000^635"CompileXIB iPad/MainWindow-iPad.xib    cd /Users/laurawhite/Desktop/MathStars2.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/Math Stars.app/MainWindow-iPad.nib" /Users/laurawhite/Desktop/MathStars2.0/iPad/MainWindow-iPad.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
+
+CCpResource Classes/Smiling_Star.png "build/Debug-iphonesimulator/Math Stars.app/Smiling_Star.png"
+s339380736.789222
+e339380736.792292
+r1
+xCpResource
+xClasses/Smiling_Star.png
+xbuild/Debug-iphonesimulator/Math Stars.app/Smiling_Star.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Copy build/Debug-iphonesimulator/Math Stars.app/Smiling_Star.png4720ca008a3ab441^b7d3ca008a3ab441^---0#0#0#-19%DVTDocumentLocation2@116"file://localhost/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/Math%20Stars.app/Smiling_Star.png0000204d2205f041^522"CpResource Classes/Smiling_Star.png "build/Debug-iphonesimulator/Math Stars.app/Smiling_Star.png"    cd /Users/laurawhite/Desktop/MathStars2.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/laurawhite/Desktop/MathStars2.0/Classes/Smiling_Star.png "/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/Math Stars.app"
+
+CCpResource FBDialog.bundle "build/Debug-iphonesimulator/Math Stars.app/FBDialog.bundle"
+s339380736.367098
+e339380736.415715
+r1
+xCpResource
+xFBDialog.bundle
+xbuild/Debug-iphonesimulator/Math Stars.app/FBDialog.bundle
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Copy build/Debug-iphonesimulator/Math Stars.app/FBDialog.bundle06105e008a3ab441^a06c6a008a3ab441^---0#0#0#-19%DVTDocumentLocation2@115"file://localhost/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/Math%20Stars.app/FBDialog.bundle0000204d2205f041^503"CpResource FBDialog.bundle "build/Debug-iphonesimulator/Math Stars.app/FBDialog.bundle"    cd /Users/laurawhite/Desktop/MathStars2.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/laurawhite/Desktop/MathStars2.0/FBDialog.bundle "/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/Math Stars.app"
+
+CCpResource MathStarsIcon114pix.png "build/Debug-iphonesimulator/Math Stars.app/MathStarsIcon114pix.png"
+s339380736.803299
+e339380736.806468
+r1
+xCpResource
+xMathStarsIcon114pix.png
+xbuild/Debug-iphonesimulator/Math Stars.app/MathStarsIcon114pix.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Copy build/Debug-iphonesimulator/Math Stars.app/MathStarsIcon114pix.png31b5cd008a3ab441^f773ce008a3ab441^---0#0#0#-19%DVTDocumentLocation2@123"file://localhost/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/Math%20Stars.app/MathStarsIcon114pix.png0000204d2205f041^527"CpResource MathStarsIcon114pix.png "build/Debug-iphonesimulator/Math Stars.app/MathStarsIcon114pix.png"    cd /Users/laurawhite/Desktop/MathStars2.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/laurawhite/Desktop/MathStars2.0/MathStarsIcon114pix.png "/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/Math Stars.app"
+
+CCpResource MathStarsIcon512pix.png "build/Debug-iphonesimulator/Math Stars.app/MathStarsIcon512pix.png"
+s339380736.807656
+e339380736.814931
+r1
+xCpResource
+xMathStarsIcon512pix.png
+xbuild/Debug-iphonesimulator/Math Stars.app/MathStarsIcon512pix.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Copy build/Debug-iphonesimulator/Math Stars.app/MathStarsIcon512pix.png1bd4ce008a3ab441^e89fd0008a3ab441^---0#0#0#-19%DVTDocumentLocation2@123"file://localhost/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/Math%20Stars.app/MathStarsIcon512pix.png0000204d2205f041^527"CpResource MathStarsIcon512pix.png "build/Debug-iphonesimulator/Math Stars.app/MathStarsIcon512pix.png"    cd /Users/laurawhite/Desktop/MathStars2.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/laurawhite/Desktop/MathStars2.0/MathStarsIcon512pix.png "/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/Math Stars.app"
+
+CCpResource MathStarsIcon57pix.png "build/Debug-iphonesimulator/Math Stars.app/MathStarsIcon57pix.png"
+s339380736.799020
+e339380736.802039
+r1
+xCpResource
+xMathStarsIcon57pix.png
+xbuild/Debug-iphonesimulator/Math Stars.app/MathStarsIcon57pix.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Copy build/Debug-iphonesimulator/Math Stars.app/MathStarsIcon57pix.png1f9fcc008a3ab441^e25acd008a3ab441^---0#0#0#-19%DVTDocumentLocation2@122"file://localhost/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/Math%20Stars.app/MathStarsIcon57pix.png0000204d2205f041^524"CpResource MathStarsIcon57pix.png "build/Debug-iphonesimulator/Math Stars.app/MathStarsIcon57pix.png"    cd /Users/laurawhite/Desktop/MathStars2.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/laurawhite/Desktop/MathStars2.0/MathStarsIcon57pix.png "/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/Math Stars.app"
+
+CCpResource NonSmiling_Star200.png "build/Debug-iphonesimulator/Math Stars.app/NonSmiling_Star200.png"
+s339380736.793641
+e339380736.797852
+r1
+xCpResource
+xNonSmiling_Star200.png
+xbuild/Debug-iphonesimulator/Math Stars.app/NonSmiling_Star200.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Copy build/Debug-iphonesimulator/Math Stars.app/NonSmiling_Star200.png3e40cb008a3ab441^7841cc008a3ab441^---0#0#0#-19%DVTDocumentLocation2@122"file://localhost/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/Math%20Stars.app/NonSmiling_Star200.png0000204d2205f041^524"CpResource NonSmiling_Star200.png "build/Debug-iphonesimulator/Math Stars.app/NonSmiling_Star200.png"    cd /Users/laurawhite/Desktop/MathStars2.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/laurawhite/Desktop/MathStars2.0/NonSmiling_Star200.png "/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/Math Stars.app"
+
+CCpResource Number_Star100.png "build/Debug-iphonesimulator/Math Stars.app/Number_Star100.png"
+s339380736.784294
+e339380736.787981
+r1
+xCpResource
+xNumber_Star100.png
+xbuild/Debug-iphonesimulator/Math Stars.app/Number_Star100.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Copy build/Debug-iphonesimulator/Math Stars.app/Number_Star100.png58e3c8008a3ab441^c7b9c9008a3ab441^---0#0#0#-19%DVTDocumentLocation2@118"file://localhost/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/Math%20Stars.app/Number_Star100.png0000204d2205f041^512"CpResource Number_Star100.png "build/Debug-iphonesimulator/Math Stars.app/Number_Star100.png"    cd /Users/laurawhite/Desktop/MathStars2.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/laurawhite/Desktop/MathStars2.0/Number_Star100.png "/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/Math Stars.app"
+
+CCpResource Pinball.mp3 "build/Debug-iphonesimulator/Math Stars.app/Pinball.mp3"
+s339380736.184408
+e339380736.973389
+r1
+xCpResource
+xPinball.mp3
+xbuild/Debug-iphonesimulator/Math Stars.app/Pinball.mp3
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Copy build/Debug-iphonesimulator/Math Stars.app/Pinball.mp3d0452f008a3ab441^c72ef9008a3ab441^---0#0#0#-19%DVTDocumentLocation2@111"file://localhost/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/Math%20Stars.app/Pinball.mp30000204d2205f041^491"CpResource Pinball.mp3 "build/Debug-iphonesimulator/Math Stars.app/Pinball.mp3"    cd /Users/laurawhite/Desktop/MathStars2.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/laurawhite/Desktop/MathStars2.0/Pinball.mp3 "/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/Math Stars.app"
+
+CCpResource RightAnswer.mp3 "build/Debug-iphonesimulator/Math Stars.app/RightAnswer.mp3"
+s339380736.477602
+e339380736.497570
+r1
+xCpResource
+xRightAnswer.mp3
+xbuild/Debug-iphonesimulator/Math Stars.app/RightAnswer.mp3
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Copy build/Debug-iphonesimulator/Math Stars.app/RightAnswer.mp3b0557a008a3ab441^a25f7f008a3ab441^---0#0#0#-19%DVTDocumentLocation2@115"file://localhost/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/Math%20Stars.app/RightAnswer.mp30000204d2205f041^503"CpResource RightAnswer.mp3 "build/Debug-iphonesimulator/Math Stars.app/RightAnswer.mp3"    cd /Users/laurawhite/Desktop/MathStars2.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/laurawhite/Desktop/MathStars2.0/RightAnswer.mp3 "/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/Math Stars.app"
+
+CCpResource RightAnswer.wav "build/Debug-iphonesimulator/Math Stars.app/RightAnswer.wav"
+s339380736.518461
+e339380736.604962
+r1
+xCpResource
+xRightAnswer.wav
+xbuild/Debug-iphonesimulator/Math Stars.app/RightAnswer.wav
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Copy build/Debug-iphonesimulator/Math Stars.app/RightAnswer.wav5bd384008a3ab441^19e89a008a3ab441^---0#0#0#-19%DVTDocumentLocation2@115"file://localhost/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/Math%20Stars.app/RightAnswer.wav0000204d2205f041^503"CpResource RightAnswer.wav "build/Debug-iphonesimulator/Math Stars.app/RightAnswer.wav"    cd /Users/laurawhite/Desktop/MathStars2.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/laurawhite/Desktop/MathStars2.0/RightAnswer.wav "/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/Math Stars.app"
+
+CCpResource Tafi.mp3 "build/Debug-iphonesimulator/Math Stars.app/Tafi.mp3"
+s339380736.186154
+e339380736.365851
+r1
+xCpResource
+xTafi.mp3
+xbuild/Debug-iphonesimulator/Math Stars.app/Tafi.mp3
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Copy build/Debug-iphonesimulator/Math Stars.app/Tafi.mp39eb52f008a3ab441^26a85d008a3ab441^---0#0#0#-19%DVTDocumentLocation2@108"file://localhost/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/Math%20Stars.app/Tafi.mp30000204d2205f041^482"CpResource Tafi.mp3 "build/Debug-iphonesimulator/Math Stars.app/Tafi.mp3"    cd /Users/laurawhite/Desktop/MathStars2.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/laurawhite/Desktop/MathStars2.0/Tafi.mp3 "/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/Math Stars.app"
+
+CCpResource WrongAnswer.mp3 "build/Debug-iphonesimulator/Math Stars.app/WrongAnswer.mp3"
+s339380736.498716
+e339380736.516729
+r1
+xCpResource
+xWrongAnswer.mp3
+xbuild/Debug-iphonesimulator/Math Stars.app/WrongAnswer.mp3
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Copy build/Debug-iphonesimulator/Math Stars.app/WrongAnswer.mp36fbc7f008a3ab441^cb4984008a3ab441^---0#0#0#-19%DVTDocumentLocation2@115"file://localhost/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/Math%20Stars.app/WrongAnswer.mp30000204d2205f041^503"CpResource WrongAnswer.mp3 "build/Debug-iphonesimulator/Math Stars.app/WrongAnswer.mp3"    cd /Users/laurawhite/Desktop/MathStars2.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/laurawhite/Desktop/MathStars2.0/WrongAnswer.mp3 "/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/Math Stars.app"
+
+CCpResource WrongAnswer.wav "build/Debug-iphonesimulator/Math Stars.app/WrongAnswer.wav"
+s339380736.606209
+e339380736.782697
+r1
+xCpResource
+xWrongAnswer.wav
+xbuild/Debug-iphonesimulator/Math Stars.app/WrongAnswer.wav
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Copy build/Debug-iphonesimulator/Math Stars.app/WrongAnswer.wav5a459b008a3ab441^9a60c8008a3ab441^---0#0#0#-19%DVTDocumentLocation2@115"file://localhost/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/Math%20Stars.app/WrongAnswer.wav0000204d2205f041^503"CpResource WrongAnswer.wav "build/Debug-iphonesimulator/Math Stars.app/WrongAnswer.wav"    cd /Users/laurawhite/Desktop/MathStars2.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/laurawhite/Desktop/MathStars2.0/WrongAnswer.wav "/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/Math Stars.app"
+
+CCpResource backBoard.png "build/Debug-iphonesimulator/Math Stars.app/backBoard.png"
+s339380736.171871
+e339380736.174769
+r1
+xCpResource
+xbackBoard.png
+xbuild/Debug-iphonesimulator/Math Stars.app/backBoard.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Copy build/Debug-iphonesimulator/Math Stars.app/backBoard.png3c152c008a3ab441^acc42c008a3ab441^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/Math%20Stars.app/backBoard.png0000204d2205f041^497"CpResource backBoard.png "build/Debug-iphonesimulator/Math Stars.app/backBoard.png"    cd /Users/laurawhite/Desktop/MathStars2.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/laurawhite/Desktop/MathStars2.0/backBoard.png "/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/Math Stars.app"
+
+CCpResource buttonback.png "build/Debug-iphonesimulator/Math Stars.app/buttonback.png"
+s339380736.175935
+e339380736.178392
+r1
+xCpResource
+xbuttonback.png
+xbuild/Debug-iphonesimulator/Math Stars.app/buttonback.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy build/Debug-iphonesimulator/Math Stars.app/buttonback.png931b2d008a3ab441^d6aa2d008a3ab441^---0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/Math%20Stars.app/buttonback.png0000204d2205f041^500"CpResource buttonback.png "build/Debug-iphonesimulator/Math Stars.app/buttonback.png"    cd /Users/laurawhite/Desktop/MathStars2.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/laurawhite/Desktop/MathStars2.0/buttonback.png "/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/Math Stars.app"
+
+CCpResource clap.wav "build/Debug-iphonesimulator/Math Stars.app/clap.wav"
+s339380736.417189
+e339380736.451429
+r1
+xCpResource
+xclap.wav
+xbuild/Debug-iphonesimulator/Math Stars.app/clap.wav
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Copy build/Debug-iphonesimulator/Math Stars.app/clap.wav59dd6a008a3ab441^c09273008a3ab441^---0#0#0#-19%DVTDocumentLocation2@108"file://localhost/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/Math%20Stars.app/clap.wav0000204d2205f041^482"CpResource clap.wav "build/Debug-iphonesimulator/Math Stars.app/clap.wav"    cd /Users/laurawhite/Desktop/MathStars2.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/laurawhite/Desktop/MathStars2.0/clap.wav "/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/Math Stars.app"
+
+CCpResource comboStar.png "build/Debug-iphonesimulator/Math Stars.app/comboStar.png"
+s339380736.178951
+e339380736.182786
+r1
+xCpResource
+xcomboStar.png
+xbuild/Debug-iphonesimulator/Math Stars.app/comboStar.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Copy build/Debug-iphonesimulator/Math Stars.app/comboStar.png48de2d008a3ab441^4e0a2f008a3ab441^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/Math%20Stars.app/comboStar.png0000204d2205f041^497"CpResource comboStar.png "build/Debug-iphonesimulator/Math Stars.app/comboStar.png"    cd /Users/laurawhite/Desktop/MathStars2.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/laurawhite/Desktop/MathStars2.0/comboStar.png "/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/Math Stars.app"
+
+CCpResource hmm.wav "build/Debug-iphonesimulator/Math Stars.app/hmm.wav"
+s339380736.452645
+e339380736.462274
+r1
+xCpResource
+xhmm.wav
+xbuild/Debug-iphonesimulator/Math Stars.app/hmm.wav
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy build/Debug-iphonesimulator/Math Stars.app/hmm.wav84f173008a3ab441^975776008a3ab441^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/Math%20Stars.app/hmm.wav0000204d2205f041^479"CpResource hmm.wav "build/Debug-iphonesimulator/Math Stars.app/hmm.wav"    cd /Users/laurawhite/Desktop/MathStars2.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/laurawhite/Desktop/MathStars2.0/hmm.wav "/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/Math Stars.app"
+
+CCpResource icon.png "build/Debug-iphonesimulator/Math Stars.app/icon.png"
+s339380736.469097
+e339380736.472854
+r1
+xCpResource
+xicon.png
+xbuild/Debug-iphonesimulator/Math Stars.app/icon.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Copy build/Debug-iphonesimulator/Math Stars.app/icon.png022e78008a3ab441^2e1b79008a3ab441^---0#0#0#-19%DVTDocumentLocation2@108"file://localhost/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/Math%20Stars.app/icon.png0000204d2205f041^482"CpResource icon.png "build/Debug-iphonesimulator/Math Stars.app/icon.png"    cd /Users/laurawhite/Desktop/MathStars2.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/laurawhite/Desktop/MathStars2.0/icon.png "/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/Math Stars.app"
+
+CCpResource icon2x.png "build/Debug-iphonesimulator/Math Stars.app/icon2x.png"
+s339380736.463451
+e339380736.467070
+r1
+xCpResource
+xicon2x.png
+xbuild/Debug-iphonesimulator/Math Stars.app/icon2x.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Copy build/Debug-iphonesimulator/Math Stars.app/icon2x.pngd4b576008a3ab441^bc9377008a3ab441^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/Math%20Stars.app/icon2x.png0000204d2205f041^488"CpResource icon2x.png "build/Debug-iphonesimulator/Math Stars.app/icon2x.png"    cd /Users/laurawhite/Desktop/MathStars2.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/laurawhite/Desktop/MathStars2.0/icon2x.png "/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/Math Stars.app"
+
+CCpResource star.png "build/Debug-iphonesimulator/Math Stars.app/star.png"
+s339380736.178910
+e339380736.184910
+r1
+xCpResource
+xstar.png
+xbuild/Debug-iphonesimulator/Math Stars.app/star.png
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Copy build/Debug-iphonesimulator/Math Stars.app/star.png7ced2d008a3ab441^82572f008a3ab441^---0#0#0#-19%DVTDocumentLocation2@108"file://localhost/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/Math%20Stars.app/star.png0000204d2205f041^482"CpResource star.png "build/Debug-iphonesimulator/Math Stars.app/star.png"    cd /Users/laurawhite/Desktop/MathStars2.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/laurawhite/Desktop/MathStars2.0/star.png "/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/Math Stars.app"
+
+CGenerateDSYMFile "/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/Math Stars.app.dSYM" "/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/Math Stars.app/Math Stars"
+s339380739.456039
+e339380739.494658
+r1
+xGenerateDSYMFile
+x/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/Math Stars.app.dSYM
+x/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/Math Stars.app/Math Stars
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Generating /Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/Math Stars.app.dSYMe4d674038a3ab441^88a07e038a3ab441^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/Math%20Stars.app.dSYM0000204d2205f041^519"GenerateDSYMFile "build/Debug-iphonesimulator/Math Stars.app.dSYM" "build/Debug-iphonesimulator/Math Stars.app/Math Stars"    cd /Users/laurawhite/Desktop/MathStars2.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/Math Stars.app/Math Stars" -o "/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/Math Stars.app.dSYM"
+
+CLd "/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/Math Stars.app/Math Stars" normal i386
+s339380739.407444
+e339380739.454220
+r1
+xLd
+x/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/Math Stars.app/Math Stars
+xnormal
+xi386
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Link /Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/Math Stars.app/Math Stars846568038a3ab441^e54774038a3ab441^---0#0#0#--1113"Ld "build/Debug-iphonesimulator/Math Stars.app/Math Stars" normal i386    cd /Users/laurawhite/Desktop/MathStars2.0    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -L/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator -F/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator -F/Users/laurawhite/Desktop/MathStars2.0 -filelist "/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Objects-normal/i386/Math Stars.LinkFileList" -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework AudioToolbox -framework AVFoundation -framework GameKit -framework Foundation -framework UIKit -framework CoreGraphics -framework iAd -o "/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/Math Stars.app/Math Stars"
+
+CProcessInfoPlistFile "/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/Math Stars.app/Info.plist" "Math Stars-Info.plist"
+s339380733.160280
+e339380733.165672
+r1
+xProcessInfoPlistFile
+x/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/Math Stars.app/Info.plist
+xMath Stars-Info.plist
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection29"Process Math Stars-Info.plista31f29fd893ab441^2b682afd893ab441^---0#0#0#-19%DVTDocumentLocation2@78"file://localhost/Users/laurawhite/Desktop/MathStars2.0/Math%20Stars-Info.plist0000000000000000^595"ProcessInfoPlistFile "build/Debug-iphonesimulator/Math Stars.app/Info.plist" "Math Stars-Info.plist"    cd /Users/laurawhite/Desktop/MathStars2.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility "Math Stars-Info.plist" -genpkginfo "/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/Math Stars.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/Math Stars.app/Info.plist"
+
+CProcessPCH "/Users/laurawhite/Library/Developer/Xcode/DerivedData/Math_Stars-bcfzkigurudiyfhcnafqvhuidklb/Index/PrecompiledHeaders/Math Stars_Prefix-cblllwhgriysozhcpuequzshamhg_ast/Math Stars_Prefix.pch.pth" "Math Stars_Prefix.pch" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH "/var/folders/QD/QDloithKH9mM4SeXJ1aCak+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Math Stars_Prefix-bxttfcftdyjvlwakhlkhzgustgli/Math Stars_Prefix.pch.gch" "Math Stars_Prefix.pch" normal i386 objective-c com.apple.compilers.gcc.4_2
+s339380737.104354
+e339380738.026006
+r1
+xProcessPCH
+x/var/folders/QD/QDloithKH9mM4SeXJ1aCak+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Math Stars_Prefix-bxttfcftdyjvlwakhlkhzgustgli/Math Stars_Prefix.pch.gch
+xMath Stars_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection32"Precompile Math Stars_Prefix.pchd0d11a018a3ab441^22a806028a3ab441^---0#0#0#-19%DVTDocumentLocation2@78"file://localhost/Users/laurawhite/Desktop/MathStars2.0/Math%20Stars_Prefix.pch0000000000000000^2180"ProcessPCH "/var/folders/QD/QDloithKH9mM4SeXJ1aCak+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Math Stars_Prefix-bxttfcftdyjvlwakhlkhzgustgli/Math Stars_Prefix.pch.gch" "Math Stars_Prefix.pch" normal i386 objective-c com.apple.compilers.gcc.4_2    cd /Users/laurawhite/Desktop/MathStars2.0    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fvisibility=hidden -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote "/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Math Stars-generated-files.hmap" "-I/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Math Stars-own-target-headers.hmap" "-I/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Math Stars-all-target-headers.hmap" -iquote "/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/Math Stars-project-headers.hmap" -I/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/include "-I/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/DerivedSources/i386" "-I/Users/laurawhite/Desktop/MathStars2.0/build/Math Stars.build/Debug-iphonesimulator/Math Stars.build/DerivedSources" -F/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator -F/Users/laurawhite/Desktop/MathStars2.0 -c "/Users/laurawhite/Desktop/MathStars2.0/Math Stars_Prefix.pch" -o "/var/folders/QD/QDloithKH9mM4SeXJ1aCak+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Math Stars_Prefix-bxttfcftdyjvlwakhlkhzgustgli/Math Stars_Prefix.pch.gch"
+
+CTouch "/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/Math Stars.app"
+s339380739.498376
+e339380739.506879
+r1
+xTouch
+x/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/Math Stars.app
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Touch /Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/Math Stars.app8ba67f038a3ab441^e8c181038a3ab441^---0#0#0#--334"Touch "build/Debug-iphonesimulator/Math Stars.app"    cd /Users/laurawhite/Desktop/MathStars2.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/laurawhite/Desktop/MathStars2.0/build/Debug-iphonesimulator/Math Stars.app"
+

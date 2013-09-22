@@ -1,0 +1,6 @@
+dependencies: /Users/laurawhite/Desktop/MathStarsiPad/FacebookManager.m \
+  /Users/laurawhite/Desktop/MathStarsiPad/FacebookManager.h \
+  /Users/laurawhite/Desktop/MathStarsiPad/Facebook.h \
+  /Users/laurawhite/Desktop/MathStarsiPad/FBLoginDialog.h \
+  /Users/laurawhite/Desktop/MathStarsiPad/FBDialog.h \
+  /Users/laurawhite/Desktop/MathStarsiPad/FBRequest.h

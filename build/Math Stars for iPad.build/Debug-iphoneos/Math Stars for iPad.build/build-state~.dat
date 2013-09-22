@@ -1,0 +1,1114 @@
+TMath Stars for iPad
+v4
+r1
+cCheck dependencies
+cCpResource /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/ResourceRules.plist "build/Debug-iphoneos/Math Stars for iPad.app/ResourceRules.plist"
+cProcessInfoPlistFile "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/Info.plist" "Math Stars for iPad-Info.plist"
+cCompileXIB /Users/laurawhite/iPhoneApps/MathStarsiPad/Classes/../MainWindow.xib
+cCompileXIB /Users/laurawhite/iPhoneApps/MathStarsiPad/Classes/../MathStarsViewController.xib
+cCompileXIB /Users/laurawhite/iPhoneApps/MathStarsiPad/Classes/GameViewController.xib
+cCopyPNGFile "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/backBoard.png" backBoard.png
+cCopyPNGFile "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/buttonback.png" buttonback.png
+cCopyPNGFile "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/star.png" star.png
+cCopyPNGFile "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/comboStar.png" comboStar.png
+cCpResource Pinball.mp3 "build/Debug-iphoneos/Math Stars for iPad.app/Pinball.mp3"
+cCpResource Tafi.mp3 "build/Debug-iphoneos/Math Stars for iPad.app/Tafi.mp3"
+cCpResource FBDialog.bundle "build/Debug-iphoneos/Math Stars for iPad.app/FBDialog.bundle"
+cCpResource clap.wav "build/Debug-iphoneos/Math Stars for iPad.app/clap.wav"
+cCpResource hmm.wav "build/Debug-iphoneos/Math Stars for iPad.app/hmm.wav"
+cCopyPNGFile "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/icon2x.png" icon2x.png
+cCopyPNGFile "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/icon.png" icon.png
+cCpResource RightAnswer.mp3 "build/Debug-iphoneos/Math Stars for iPad.app/RightAnswer.mp3"
+cCpResource WrongAnswer.mp3 "build/Debug-iphoneos/Math Stars for iPad.app/WrongAnswer.mp3"
+cCpResource RightAnswer.wav "build/Debug-iphoneos/Math Stars for iPad.app/RightAnswer.wav"
+cCpResource WrongAnswer.wav "build/Debug-iphoneos/Math Stars for iPad.app/WrongAnswer.wav"
+cCopyPNGFile "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/Number_Star100.png" Number_Star100.png
+cCopyPNGFile "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/Smiling_Star.png" Classes/Smiling_Star.png
+cCopyPNGFile "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/NonSmiling_Star200.png" NonSmiling_Star200.png
+cCopyPNGFile "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/MathStarsIcon57pix.png" MathStarsIcon57pix.png
+cCopyPNGFile "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/MathStarsIcon114pix.png" MathStarsIcon114pix.png
+cCopyPNGFile "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/MathStarsIcon512pix.png" MathStarsIcon512pix.png
+cCompileXIB /Users/laurawhite/iPhoneApps/MathStarsiPad/iPad/MainWindow-iPad.xib
+cCopyPNGFile "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/MathStarsIcon72.png" MathStarsIcon72.png
+cProcessPCH "/var/folders/f3/y79fwv_s6bs60sx_jn8fcflc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Math Stars for iPad_Prefix-fmlvyezclhzyyqemlqmugeukscxe/Math Stars for iPad_Prefix.pch.pth" "Math Stars for iPad_Prefix.pch" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/main.o" /Users/laurawhite/iPhoneApps/MathStarsiPad/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/MathStarsAppDelegate.o" /Users/laurawhite/iPhoneApps/MathStarsiPad/Classes/MathStarsAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/MathStarsViewController.o" /Users/laurawhite/iPhoneApps/MathStarsiPad/Classes/MathStarsViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/GameViewController.o" /Users/laurawhite/iPhoneApps/MathStarsiPad/Classes/GameViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/Facebook.o" /Users/laurawhite/iPhoneApps/MathStarsiPad/Facebook.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/FBDialog.o" /Users/laurawhite/iPhoneApps/MathStarsiPad/FBDialog.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/FBLoginDialog.o" /Users/laurawhite/iPhoneApps/MathStarsiPad/FBLoginDialog.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/FBRequest.o" /Users/laurawhite/iPhoneApps/MathStarsiPad/FBRequest.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/FacebookManager.o" /Users/laurawhite/iPhoneApps/MathStarsiPad/FacebookManager.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/NSObject+SBJSON.o" /Users/laurawhite/iPhoneApps/MathStarsiPad/NSObject+SBJSON.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/NSString+SBJSON.o" /Users/laurawhite/iPhoneApps/MathStarsiPad/NSString+SBJSON.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/SBJSON.o" /Users/laurawhite/iPhoneApps/MathStarsiPad/SBJSON.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/SBJsonBase.o" /Users/laurawhite/iPhoneApps/MathStarsiPad/SBJsonBase.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/SBJsonParser.o" /Users/laurawhite/iPhoneApps/MathStarsiPad/SBJsonParser.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/SBJsonWriter.o" /Users/laurawhite/iPhoneApps/MathStarsiPad/SBJsonWriter.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/Math Stars for iPad" normal armv7
+cGenerateDSYMFile "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app.dSYM" "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/Math Stars for iPad"
+cProcessProductPackaging "/Users/laurawhite/Library/MobileDevice/Provisioning Profiles/95848DBF-DCB2-4272-A64A-92ACC6D541E0.mobileprovision" "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/embedded.mobileprovision"
+cProcessProductPackaging "/Users/laurawhite/Library/MobileDevice/Provisioning Profiles/95848DBF-DCB2-4272-A64A-92ACC6D541E0.mobileprovision" "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/embedded.mobileprovision"
+cTouch "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app"
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Math Stars for iPad.xcent"
+cCodeSign "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app"
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk
+c000000004E7840290000000000000110
+t1316503593
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist
+c000000004E5C595800000000000001A7
+t1314675032
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/ResourceRules.plist
+c000000004E5C595800000000000001E5
+t1314675032
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000004E7807DB000000000015F8A0
+t1316489179
+s1439904
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004E72F36E00000000005AF640
+t1316156270
+s5961280
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004E72F28700000000003AB0A0
+t1316156039
+s3846304
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004E72F3440000000000529540
+t1316156228
+s5412160
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004E72F3370000000000001534
+t1316156215
+s5428
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/GameKit.framework/GameKit
+c000000004E780CD300000000001FD1F0
+t1316490451
+s2085360
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/GameKit.framework/Headers/GameKit.h
+c000000004E780CC400000000000003CE
+t1316490436
+s974
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004E7808770000000000000BCB
+t1316489335
+s3019
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004E7808C7000000000078BE50
+t1316489415
+s7913040
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/iAd.framework/iAd
+c000000004E780CB70000000000031FD0
+t1316490423
+s204752
+
+N/Users/laurawhite/Library/MobileDevice/Provisioning Profiles/95848DBF-DCB2-4272-A64A-92ACC6D541E0.mobileprovision
+c000000004F4425E30000000000001D81
+t1329866211
+s7553
+
+N/Users/laurawhite/iPhoneApps/MathStarsiPad/Classes/../MainWindow.xib
+c000000004E8A408600000000000020F2
+t1317683334
+s8434
+
+N/Users/laurawhite/iPhoneApps/MathStarsiPad/Classes/../MathStarsViewController.xib
+c000000004F52E610000000000000B8DF
+t1330832912
+s47327
+
+N/Users/laurawhite/iPhoneApps/MathStarsiPad/Classes/GameViewController.m
+c000000004F52D9410000000000006E27
+t1330829633
+s28199
+
+N/Users/laurawhite/iPhoneApps/MathStarsiPad/Classes/GameViewController.xib
+c000000004F52E1C700000000000153A9
+t1330831815
+s86953
+
+N/Users/laurawhite/iPhoneApps/MathStarsiPad/Classes/MathStarsAppDelegate.m
+c000000004E470461000000000000102F
+t1313277025
+s4143
+
+N/Users/laurawhite/iPhoneApps/MathStarsiPad/Classes/MathStarsViewController.m
+c000000004F52E31D000000000000132F
+t1330832157
+s4911
+
+N/Users/laurawhite/iPhoneApps/MathStarsiPad/Classes/Smiling_Star.png
+c000000004E2A520E0000000000006F54
+t1311396366
+s28500
+
+N/Users/laurawhite/iPhoneApps/MathStarsiPad/FBDialog.bundle
+c000000004DDF1E180000000000000066
+t1306467864
+s102
+
+N/Users/laurawhite/iPhoneApps/MathStarsiPad/FBDialog.m
+c000000004F4435D50000000000005786
+t1329870293
+s22406
+
+N/Users/laurawhite/iPhoneApps/MathStarsiPad/FBLoginDialog.m
+c000000004DDF1E180000000000000BC4
+t1306467864
+s3012
+
+N/Users/laurawhite/iPhoneApps/MathStarsiPad/FBRequest.m
+c000000004DDF1E180000000000002C7A
+t1306467864
+s11386
+
+N/Users/laurawhite/iPhoneApps/MathStarsiPad/Facebook.m
+c000000004E46FD410000000000005DBF
+t1313275201
+s23999
+
+N/Users/laurawhite/iPhoneApps/MathStarsiPad/FacebookManager.m
+c000000004E46FE490000000000000987
+t1313275465
+s2439
+
+N/Users/laurawhite/iPhoneApps/MathStarsiPad/Math Stars for iPad_Prefix.pch
+c000000004E47006800000000000000B6
+t1313276008
+s182
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i<GameKit/GameKit.h>
+
+N/Users/laurawhite/iPhoneApps/MathStarsiPad/MathStarsIcon114pix.png
+c000000004E47E4500000000000004933
+t1313334352
+s18739
+
+N/Users/laurawhite/iPhoneApps/MathStarsiPad/MathStarsIcon512pix.png
+c000000004E47E2FD000000000002D0D5
+t1313334013
+s184533
+
+N/Users/laurawhite/iPhoneApps/MathStarsiPad/MathStarsIcon57pix.png
+c000000004E47E42A00000000000019CE
+t1313334314
+s6606
+
+N/Users/laurawhite/iPhoneApps/MathStarsiPad/MathStarsIcon72.png
+c000000004F4435110000000000002144
+t1329870097
+s8516
+
+N/Users/laurawhite/iPhoneApps/MathStarsiPad/NSObject+SBJSON.m
+c000000004DDF1E18000000000000089E
+t1306467864
+s2206
+
+N/Users/laurawhite/iPhoneApps/MathStarsiPad/NSString+SBJSON.m
+c000000004DDF1E18000000000000087D
+t1306467864
+s2173
+
+N/Users/laurawhite/iPhoneApps/MathStarsiPad/NonSmiling_Star200.png
+c000000004E2A528500000000000071A8
+t1311396485
+s29096
+
+N/Users/laurawhite/iPhoneApps/MathStarsiPad/Number_Star100.png
+c000000004E2A464E000000000000243E
+t1311393358
+s9278
+
+N/Users/laurawhite/iPhoneApps/MathStarsiPad/Pinball.mp3
+c000000004C211298000000000090114F
+t1277235864
+s9441615
+
+N/Users/laurawhite/iPhoneApps/MathStarsiPad/RightAnswer.mp3
+c000000004E0E92670000000000012DB7
+t1309577831
+s77239
+
+N/Users/laurawhite/iPhoneApps/MathStarsiPad/RightAnswer.wav
+c000000004E0E951700000000000C3CE8
+t1309578519
+s802024
+
+N/Users/laurawhite/iPhoneApps/MathStarsiPad/SBJSON.m
+c000000004DDF1E180000000000001ABC
+t1306467864
+s6844
+
+N/Users/laurawhite/iPhoneApps/MathStarsiPad/SBJsonBase.m
+c000000004DDF1E180000000000000AC1
+t1306467864
+s2753
+
+N/Users/laurawhite/iPhoneApps/MathStarsiPad/SBJsonParser.m
+c000000004DDF1E1800000000000036D0
+t1306467864
+s14032
+
+N/Users/laurawhite/iPhoneApps/MathStarsiPad/SBJsonWriter.m
+c000000004DDF1E180000000000001F26
+t1306467864
+s7974
+
+N/Users/laurawhite/iPhoneApps/MathStarsiPad/Tafi.mp3
+c000000004C2112680000000000250000
+t1277235816
+s2424832
+
+N/Users/laurawhite/iPhoneApps/MathStarsiPad/WrongAnswer.mp3
+c000000004E0E92690000000000012DB7
+t1309577833
+s77239
+
+N/Users/laurawhite/iPhoneApps/MathStarsiPad/WrongAnswer.wav
+c000000004E0E964100000000000C4E2C
+t1309578817
+s806444
+
+N/Users/laurawhite/iPhoneApps/MathStarsiPad/backBoard.png
+c000000004DDEDC42000000000000488E
+t1306451010
+s18574
+
+N/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app
+t2
+s0
+
+N/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app.dSYM
+t2
+s0
+
+N/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/FBDialog.bundle
+t2
+s0
+
+N/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/GameViewController.nib
+t2
+s0
+
+N/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/Info.plist
+t2
+s0
+
+N/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/MainWindow-iPad.nib
+t2
+s0
+
+N/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/MainWindow.nib
+t2
+s0
+
+N/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/Math Stars for iPad
+t2
+s0
+
+N/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/MathStarsIcon114pix.png
+t2
+s0
+
+N/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/MathStarsIcon512pix.png
+t2
+s0
+
+N/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/MathStarsIcon57pix.png
+t2
+s0
+
+N/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/MathStarsIcon72.png
+t2
+s0
+
+N/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/MathStarsViewController.nib
+t2
+s0
+
+N/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/NonSmiling_Star200.png
+t2
+s0
+
+N/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/Number_Star100.png
+t2
+s0
+
+N/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/Pinball.mp3
+t2
+s0
+
+N/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/PkgInfo
+t2
+s0
+
+N/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/ResourceRules.plist
+t2
+s0
+
+N/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/RightAnswer.mp3
+t2
+s0
+
+N/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/RightAnswer.wav
+t2
+s0
+
+N/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/Smiling_Star.png
+t2
+s0
+
+N/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/Tafi.mp3
+t2
+s0
+
+N/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/WrongAnswer.mp3
+t2
+s0
+
+N/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/WrongAnswer.wav
+t2
+s0
+
+N/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/backBoard.png
+t2
+s0
+
+N/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/buttonback.png
+t2
+s0
+
+N/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/clap.wav
+t2
+s0
+
+N/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/comboStar.png
+t2
+s0
+
+N/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/embedded.mobileprovision
+t2
+s0
+
+N/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/hmm.wav
+t2
+s0
+
+N/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/icon.png
+t2
+s0
+
+N/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/icon2x.png
+t2
+s0
+
+N/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/star.png
+t2
+s0
+
+N/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Math Stars for iPad.xcent
+t2
+s0
+
+N/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/FBDialog.o
+t2
+s0
+
+N/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/FBLoginDialog.o
+t2
+s0
+
+N/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/FBRequest.o
+t2
+s0
+
+N/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/Facebook.o
+t2
+s0
+
+N/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/FacebookManager.o
+t2
+s0
+
+N/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/GameViewController.o
+t2
+s0
+
+N/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/Math Stars for iPad.LinkFileList
+c000000004F52E97500000000000008F0
+t1330833781
+s2288
+
+N/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/MathStarsAppDelegate.o
+t2
+s0
+
+N/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/MathStarsViewController.o
+t2
+s0
+
+N/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/NSObject+SBJSON.o
+t2
+s0
+
+N/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/NSString+SBJSON.o
+t2
+s0
+
+N/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/SBJSON.o
+t2
+s0
+
+N/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/SBJsonBase.o
+t2
+s0
+
+N/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/SBJsonParser.o
+t2
+s0
+
+N/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/SBJsonWriter.o
+t2
+s0
+
+N/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/main.o
+t2
+s0
+
+N/Users/laurawhite/iPhoneApps/MathStarsiPad/buttonback.png
+c000000004DE571870000000000000CD1
+t1306882439
+s3281
+
+N/Users/laurawhite/iPhoneApps/MathStarsiPad/clap.wav
+c000000004E0E1CF40000000000023F58
+t1309547764
+s147288
+
+N/Users/laurawhite/iPhoneApps/MathStarsiPad/comboStar.png
+c000000004DEC37AE0000000000001DEB
+t1307326382
+s7659
+
+N/Users/laurawhite/iPhoneApps/MathStarsiPad/hmm.wav
+c0000000049B59FA60000000000011430
+t1236639654
+s70704
+
+N/Users/laurawhite/iPhoneApps/MathStarsiPad/iPad/MainWindow-iPad.xib
+c000000004E8A3E270000000000003F21
+t1317682727
+s16161
+
+N/Users/laurawhite/iPhoneApps/MathStarsiPad/icon.png
+c000000004E0E2CA800000000000017D3
+t1309551784
+s6099
+
+N/Users/laurawhite/iPhoneApps/MathStarsiPad/icon2x.png
+c000000004E0E2C460000000000003F44
+t1309551686
+s16196
+
+N/Users/laurawhite/iPhoneApps/MathStarsiPad/main.m
+c000000004E47006D00000000000000F8
+t1313276013
+s248
+
+N/Users/laurawhite/iPhoneApps/MathStarsiPad/star.png
+c000000004DEC37DA0000000000001129
+t1307326426
+s4393
+
+N/var/folders/f3/y79fwv_s6bs60sx_jn8fcflc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Math Stars for iPad_Prefix-fmlvyezclhzyyqemlqmugeukscxe/Math Stars for iPad_Prefix.pch.pth
+t2
+s0
+
+NMath Stars for iPad-Info.plist
+c000000004F52E96200000000000007EA
+t1330833762
+s2026
+
+CBuild AST from /Users/laurawhite/iPhoneApps/MathStarsiPad/Classes/GameViewController.m
+r0
+
+CBuild AST from /Users/laurawhite/iPhoneApps/MathStarsiPad/Classes/MathStarsAppDelegate.m
+r0
+
+CBuild AST from /Users/laurawhite/iPhoneApps/MathStarsiPad/Classes/MathStarsViewController.m
+r0
+
+CBuild AST from /Users/laurawhite/iPhoneApps/MathStarsiPad/FBDialog.m
+r0
+
+CBuild AST from /Users/laurawhite/iPhoneApps/MathStarsiPad/FBLoginDialog.m
+r0
+
+CBuild AST from /Users/laurawhite/iPhoneApps/MathStarsiPad/FBRequest.m
+r0
+
+CBuild AST from /Users/laurawhite/iPhoneApps/MathStarsiPad/Facebook.m
+r0
+
+CBuild AST from /Users/laurawhite/iPhoneApps/MathStarsiPad/FacebookManager.m
+r0
+
+CBuild AST from /Users/laurawhite/iPhoneApps/MathStarsiPad/NSObject+SBJSON.m
+r0
+
+CBuild AST from /Users/laurawhite/iPhoneApps/MathStarsiPad/NSString+SBJSON.m
+r0
+
+CBuild AST from /Users/laurawhite/iPhoneApps/MathStarsiPad/SBJSON.m
+r0
+
+CBuild AST from /Users/laurawhite/iPhoneApps/MathStarsiPad/SBJsonBase.m
+r0
+
+CBuild AST from /Users/laurawhite/iPhoneApps/MathStarsiPad/SBJsonParser.m
+r0
+
+CBuild AST from /Users/laurawhite/iPhoneApps/MathStarsiPad/SBJsonWriter.m
+r0
+
+CBuild AST from /Users/laurawhite/iPhoneApps/MathStarsiPad/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies2d5f87f52003b541^f228a9f52003b541^---0#1#0#--18"Check dependencies36"BA9D6942-2ECD-4C97-AFBA-BC4DBC282E68-
+
+CCodeSign "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app"
+s352526586.547200
+e352526586.884441
+r1
+xCodeSign
+x/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"CodeSign "build/Debug-iphoneos/Math Stars for iPad.app"f5308cfa2003b541^776ae2fa2003b541^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math%20Stars%20for%20iPad.app/0000000000000000^792"CodeSign "build/Debug-iphoneos/Math Stars for iPad.app"    cd /Users/laurawhite/iPhoneApps/MathStarsiPad    setenv CODESIGN_ALLOCATE /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign --force --sign "iPhone Developer: Laura White (R7F3Z4GZ27)" "--resource-rules=/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/ResourceRules.plist" --entitlements "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Math Stars for iPad.xcent" "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app"36"BDCE8912-B9DE-422B-93CA-19B2FA726675-
+
+CCompileC "build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/FBDialog.o" /Users/laurawhite/iPhoneApps/MathStarsiPad/FBDialog.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s352526585.253992
+e352526585.893365
+r1
+xCompileC
+xbuild/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/FBDialog.o
+x/Users/laurawhite/iPhoneApps/MathStarsiPad/FBDialog.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/laurawhite/iPhoneApps/MathStarsiPad/FBDialog.m:451:37:{451:37-451:91}{451:23-451:34}: warning: implicit conversion from enumeration type 'UIInterfaceOrientation' to different enumeration type 'UIDeviceOrientation' [-Wconversion,3]
+o   UIDeviceOrientation orientation = [UIApplication sharedApplication].statusBarOrientation;
+o                       ~~~~~~~~~~~   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+o1 warning generated.
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Compile /Users/laurawhite/iPhoneApps/MathStarsiPad/FBDialog.m752241f92003b541^49bee6f92003b541^-444"/Users/laurawhite/iPhoneApps/MathStarsiPad/FBDialog.m:451:37:{451:37-451:91}{451:23-451:34}: warning: implicit conversion from enumeration type 'UIInterfaceOrientation' to different enumeration type 'UIDeviceOrientation' [-Wconversion,3]   UIDeviceOrientation orientation = [UIApplication sharedApplication].statusBarOrientation;                       ~~~~~~~~~~~   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~1 warning generated.1(21%IDEActivityLogMessage2@118"Implicit conversion from enumeration type 'UIInterfaceOrientation' to different enumeration type 'UIDeviceOrientation'-352526585#0#238#-1#-23%DVTTextDocumentLocation3@69"file://localhost/Users/laurawhite/iPhoneApps/MathStarsiPad/FBDialog.m0000000000000000^450#36#450#36#18446744073709551615#0#14"Semantic Issue2(3@69"file://localhost/Users/laurawhite/iPhoneApps/MathStarsiPad/FBDialog.m0000000000000000^450#36#450#90#18446744073709551615#0#3@69"file://localhost/Users/laurawhite/iPhoneApps/MathStarsiPad/FBDialog.m0000000000000000^450#22#450#33#18446744073709551615#0#-0#0#0#-19%DVTDocumentLocation4@69"file://localhost/Users/laurawhite/iPhoneApps/MathStarsiPad/FBDialog.m0000000000000000^2803"CompileC "build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/FBDialog.o" FBDialog.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/laurawhite/iPhoneApps/MathStarsiPad    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -fvisibility=hidden -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.3 -iquote "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Math Stars for iPad-generated-files.hmap" "-I/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Math Stars for iPad-own-target-headers.hmap" "-I/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Math Stars for iPad-all-target-headers.hmap" -iquote "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Math Stars for iPad-project-headers.hmap" -I/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/include "-I/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/DerivedSources/armv7" "-I/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/DerivedSources" -F/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos -F/Users/laurawhite/iPhoneApps/MathStarsiPad -include "/var/folders/f3/y79fwv_s6bs60sx_jn8fcflc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Math Stars for iPad_Prefix-fmlvyezclhzyyqemlqmugeukscxe/Math Stars for iPad_Prefix.pch" -MMD -MT dependencies -MF "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/FBDialog.d" -c /Users/laurawhite/iPhoneApps/MathStarsiPad/FBDialog.m -o "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/FBDialog.o"36"A87AE47B-7BBD-48C6-B3AC-8D305487593B-
+
+CCompileC "build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/FBLoginDialog.o" /Users/laurawhite/iPhoneApps/MathStarsiPad/FBLoginDialog.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s352526585.286677
+e352526585.444643
+r1
+xCompileC
+xbuild/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/FBLoginDialog.o
+x/Users/laurawhite/iPhoneApps/MathStarsiPad/FBLoginDialog.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile /Users/laurawhite/iPhoneApps/MathStarsiPad/FBLoginDialog.m018649f92003b541^20d471f92003b541^---0#0#0#-19%DVTDocumentLocation2@74"file://localhost/Users/laurawhite/iPhoneApps/MathStarsiPad/FBLoginDialog.m0000000000000000^2828"CompileC "build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/FBLoginDialog.o" FBLoginDialog.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/laurawhite/iPhoneApps/MathStarsiPad    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -fvisibility=hidden -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.3 -iquote "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Math Stars for iPad-generated-files.hmap" "-I/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Math Stars for iPad-own-target-headers.hmap" "-I/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Math Stars for iPad-all-target-headers.hmap" -iquote "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Math Stars for iPad-project-headers.hmap" -I/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/include "-I/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/DerivedSources/armv7" "-I/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/DerivedSources" -F/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos -F/Users/laurawhite/iPhoneApps/MathStarsiPad -include "/var/folders/f3/y79fwv_s6bs60sx_jn8fcflc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Math Stars for iPad_Prefix-fmlvyezclhzyyqemlqmugeukscxe/Math Stars for iPad_Prefix.pch" -MMD -MT dependencies -MF "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/FBLoginDialog.d" -c /Users/laurawhite/iPhoneApps/MathStarsiPad/FBLoginDialog.m -o "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/FBLoginDialog.o"36"FF6FB85A-3954-4149-8762-0CDB300B95F7-
+
+CCompileC "build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/FBRequest.o" /Users/laurawhite/iPhoneApps/MathStarsiPad/FBRequest.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s352526585.445889
+e352526585.852452
+r1
+xCompileC
+xbuild/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/FBRequest.o
+x/Users/laurawhite/iPhoneApps/MathStarsiPad/FBRequest.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Compile /Users/laurawhite/iPhoneApps/MathStarsiPad/FBRequest.m0f4872f92003b541^dc46e3f92003b541^---0#0#0#-19%DVTDocumentLocation2@70"file://localhost/Users/laurawhite/iPhoneApps/MathStarsiPad/FBRequest.m0000000000000000^2808"CompileC "build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/FBRequest.o" FBRequest.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/laurawhite/iPhoneApps/MathStarsiPad    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -fvisibility=hidden -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.3 -iquote "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Math Stars for iPad-generated-files.hmap" "-I/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Math Stars for iPad-own-target-headers.hmap" "-I/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Math Stars for iPad-all-target-headers.hmap" -iquote "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Math Stars for iPad-project-headers.hmap" -I/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/include "-I/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/DerivedSources/armv7" "-I/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/DerivedSources" -F/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos -F/Users/laurawhite/iPhoneApps/MathStarsiPad -include "/var/folders/f3/y79fwv_s6bs60sx_jn8fcflc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Math Stars for iPad_Prefix-fmlvyezclhzyyqemlqmugeukscxe/Math Stars for iPad_Prefix.pch" -MMD -MT dependencies -MF "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/FBRequest.d" -c /Users/laurawhite/iPhoneApps/MathStarsiPad/FBRequest.m -o "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/FBRequest.o"36"4CA6F87E-9957-4DF2-8DF5-2FFEC5D41431-
+
+CCompileC "build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/Facebook.o" /Users/laurawhite/iPhoneApps/MathStarsiPad/Facebook.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s352526585.108949
+e352526585.252754
+r1
+xCompileC
+xbuild/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/Facebook.o
+x/Users/laurawhite/iPhoneApps/MathStarsiPad/Facebook.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Compile /Users/laurawhite/iPhoneApps/MathStarsiPad/Facebook.m9b031cf92003b541^1ac340f92003b541^---0#0#0#-19%DVTDocumentLocation2@69"file://localhost/Users/laurawhite/iPhoneApps/MathStarsiPad/Facebook.m0000000000000000^2803"CompileC "build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/Facebook.o" Facebook.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/laurawhite/iPhoneApps/MathStarsiPad    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -fvisibility=hidden -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.3 -iquote "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Math Stars for iPad-generated-files.hmap" "-I/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Math Stars for iPad-own-target-headers.hmap" "-I/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Math Stars for iPad-all-target-headers.hmap" -iquote "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Math Stars for iPad-project-headers.hmap" -I/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/include "-I/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/DerivedSources/armv7" "-I/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/DerivedSources" -F/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos -F/Users/laurawhite/iPhoneApps/MathStarsiPad -include "/var/folders/f3/y79fwv_s6bs60sx_jn8fcflc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Math Stars for iPad_Prefix-fmlvyezclhzyyqemlqmugeukscxe/Math Stars for iPad_Prefix.pch" -MMD -MT dependencies -MF "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/Facebook.d" -c /Users/laurawhite/iPhoneApps/MathStarsiPad/Facebook.m -o "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/Facebook.o"36"20422658-5B0C-41D9-B882-67D5467ABEE1-
+
+CCompileC "build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/FacebookManager.o" /Users/laurawhite/iPhoneApps/MathStarsiPad/FacebookManager.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s352526585.853817
+e352526586.001477
+r1
+xCompileC
+xbuild/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/FacebookManager.o
+x/Users/laurawhite/iPhoneApps/MathStarsiPad/FacebookManager.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Compile /Users/laurawhite/iPhoneApps/MathStarsiPad/FacebookManager.mf2b6daf92003b541^827100fa2003b541^---0#0#0#-19%DVTDocumentLocation2@76"file://localhost/Users/laurawhite/iPhoneApps/MathStarsiPad/FacebookManager.m0000000000000000^2838"CompileC "build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/FacebookManager.o" FacebookManager.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/laurawhite/iPhoneApps/MathStarsiPad    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -fvisibility=hidden -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.3 -iquote "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Math Stars for iPad-generated-files.hmap" "-I/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Math Stars for iPad-own-target-headers.hmap" "-I/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Math Stars for iPad-all-target-headers.hmap" -iquote "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Math Stars for iPad-project-headers.hmap" -I/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/include "-I/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/DerivedSources/armv7" "-I/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/DerivedSources" -F/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos -F/Users/laurawhite/iPhoneApps/MathStarsiPad -include "/var/folders/f3/y79fwv_s6bs60sx_jn8fcflc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Math Stars for iPad_Prefix-fmlvyezclhzyyqemlqmugeukscxe/Math Stars for iPad_Prefix.pch" -MMD -MT dependencies -MF "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/FacebookManager.d" -c /Users/laurawhite/iPhoneApps/MathStarsiPad/FacebookManager.m -o "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/FacebookManager.o"36"44859135-59BC-42BC-A47F-1CB7C428CFF8-
+
+CCompileC "build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/GameViewController.o" /Users/laurawhite/iPhoneApps/MathStarsiPad/Classes/GameViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s352526584.986542
+e352526585.285327
+r1
+xCompileC
+xbuild/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/GameViewController.o
+x/Users/laurawhite/iPhoneApps/MathStarsiPad/Classes/GameViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Compile /Users/laurawhite/iPhoneApps/MathStarsiPad/Classes/GameViewController.m04adfcf82003b541^ee0a49f92003b541^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/laurawhite/iPhoneApps/MathStarsiPad/Classes/GameViewController.m0000000000000000^2869"CompileC "build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/GameViewController.o" Classes/GameViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/laurawhite/iPhoneApps/MathStarsiPad    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -fvisibility=hidden -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.3 -iquote "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Math Stars for iPad-generated-files.hmap" "-I/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Math Stars for iPad-own-target-headers.hmap" "-I/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Math Stars for iPad-all-target-headers.hmap" -iquote "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Math Stars for iPad-project-headers.hmap" -I/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/include "-I/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/DerivedSources/armv7" "-I/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/DerivedSources" -F/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos -F/Users/laurawhite/iPhoneApps/MathStarsiPad -include "/var/folders/f3/y79fwv_s6bs60sx_jn8fcflc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Math Stars for iPad_Prefix-fmlvyezclhzyyqemlqmugeukscxe/Math Stars for iPad_Prefix.pch" -MMD -MT dependencies -MF "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/GameViewController.d" -c /Users/laurawhite/iPhoneApps/MathStarsiPad/Classes/GameViewController.m -o "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/GameViewController.o"36"F5949A01-F392-43C7-9463-ABDB45C60917-
+
+CCompileC "build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/MathStarsAppDelegate.o" /Users/laurawhite/iPhoneApps/MathStarsiPad/Classes/MathStarsAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s352526584.653987
+e352526584.985205
+r1
+xCompileC
+xbuild/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/MathStarsAppDelegate.o
+x/Users/laurawhite/iPhoneApps/MathStarsiPad/Classes/MathStarsAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Compile /Users/laurawhite/iPhoneApps/MathStarsiPad/Classes/MathStarsAppDelegate.m4c8ea7f82003b541^ad35fcf82003b541^---0#0#0#-19%DVTDocumentLocation2@89"file://localhost/Users/laurawhite/iPhoneApps/MathStarsiPad/Classes/MathStarsAppDelegate.m0000000000000000^2879"CompileC "build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/MathStarsAppDelegate.o" Classes/MathStarsAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/laurawhite/iPhoneApps/MathStarsiPad    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -fvisibility=hidden -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.3 -iquote "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Math Stars for iPad-generated-files.hmap" "-I/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Math Stars for iPad-own-target-headers.hmap" "-I/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Math Stars for iPad-all-target-headers.hmap" -iquote "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Math Stars for iPad-project-headers.hmap" -I/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/include "-I/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/DerivedSources/armv7" "-I/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/DerivedSources" -F/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos -F/Users/laurawhite/iPhoneApps/MathStarsiPad -include "/var/folders/f3/y79fwv_s6bs60sx_jn8fcflc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Math Stars for iPad_Prefix-fmlvyezclhzyyqemlqmugeukscxe/Math Stars for iPad_Prefix.pch" -MMD -MT dependencies -MF "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/MathStarsAppDelegate.d" -c /Users/laurawhite/iPhoneApps/MathStarsiPad/Classes/MathStarsAppDelegate.m -o "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/MathStarsAppDelegate.o"36"7D5D82EF-E646-4741-84A1-DA3E7CD2EF89-
+
+CCompileC "build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/MathStarsViewController.o" /Users/laurawhite/iPhoneApps/MathStarsiPad/Classes/MathStarsViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s352526584.935278
+e352526585.107678
+r1
+xCompileC
+xbuild/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/MathStarsViewController.o
+x/Users/laurawhite/iPhoneApps/MathStarsiPad/Classes/MathStarsViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Users/laurawhite/iPhoneApps/MathStarsiPad/Classes/MathStarsViewController.m588feff82003b541^ed9f1bf92003b541^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/laurawhite/iPhoneApps/MathStarsiPad/Classes/MathStarsViewController.m0000000000000000^2894"CompileC "build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/MathStarsViewController.o" Classes/MathStarsViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/laurawhite/iPhoneApps/MathStarsiPad    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -fvisibility=hidden -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.3 -iquote "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Math Stars for iPad-generated-files.hmap" "-I/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Math Stars for iPad-own-target-headers.hmap" "-I/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Math Stars for iPad-all-target-headers.hmap" -iquote "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Math Stars for iPad-project-headers.hmap" -I/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/include "-I/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/DerivedSources/armv7" "-I/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/DerivedSources" -F/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos -F/Users/laurawhite/iPhoneApps/MathStarsiPad -include "/var/folders/f3/y79fwv_s6bs60sx_jn8fcflc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Math Stars for iPad_Prefix-fmlvyezclhzyyqemlqmugeukscxe/Math Stars for iPad_Prefix.pch" -MMD -MT dependencies -MF "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/MathStarsViewController.d" -c /Users/laurawhite/iPhoneApps/MathStarsiPad/Classes/MathStarsViewController.m -o "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/MathStarsViewController.o"36"4E416BB7-DEFF-49C2-9F79-85B5E735C29A-
+
+CCompileC "build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/NSObject+SBJSON.o" /Users/laurawhite/iPhoneApps/MathStarsiPad/NSObject+SBJSON.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s352526585.895236
+e352526585.964311
+r1
+xCompileC
+xbuild/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/NSObject+SBJSON.o
+x/Users/laurawhite/iPhoneApps/MathStarsiPad/NSObject+SBJSON.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Compile /Users/laurawhite/iPhoneApps/MathStarsiPad/NSObject+SBJSON.m6a4fe5f92003b541^e1ecf6f92003b541^---0#0#0#-19%DVTDocumentLocation2@76"file://localhost/Users/laurawhite/iPhoneApps/MathStarsiPad/NSObject+SBJSON.m0000000000000000^2838"CompileC "build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/NSObject+SBJSON.o" NSObject+SBJSON.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/laurawhite/iPhoneApps/MathStarsiPad    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -fvisibility=hidden -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.3 -iquote "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Math Stars for iPad-generated-files.hmap" "-I/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Math Stars for iPad-own-target-headers.hmap" "-I/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Math Stars for iPad-all-target-headers.hmap" -iquote "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Math Stars for iPad-project-headers.hmap" -I/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/include "-I/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/DerivedSources/armv7" "-I/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/DerivedSources" -F/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos -F/Users/laurawhite/iPhoneApps/MathStarsiPad -include "/var/folders/f3/y79fwv_s6bs60sx_jn8fcflc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Math Stars for iPad_Prefix-fmlvyezclhzyyqemlqmugeukscxe/Math Stars for iPad_Prefix.pch" -MMD -MT dependencies -MF "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/NSObject+SBJSON.d" -c /Users/laurawhite/iPhoneApps/MathStarsiPad/NSObject+SBJSON.m -o "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/NSObject+SBJSON.o"36"C10C787D-5410-4D83-87EE-1F288912A5D0-
+
+CCompileC "build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/NSString+SBJSON.o" /Users/laurawhite/iPhoneApps/MathStarsiPad/NSString+SBJSON.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s352526585.965815
+e352526586.033828
+r1
+xCompileC
+xbuild/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/NSString+SBJSON.o
+x/Users/laurawhite/iPhoneApps/MathStarsiPad/NSString+SBJSON.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Compile /Users/laurawhite/iPhoneApps/MathStarsiPad/NSString+SBJSON.m535ef7f92003b541^8db808fa2003b541^---0#0#0#-19%DVTDocumentLocation2@76"file://localhost/Users/laurawhite/iPhoneApps/MathStarsiPad/NSString+SBJSON.m0000000000000000^2838"CompileC "build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/NSString+SBJSON.o" NSString+SBJSON.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/laurawhite/iPhoneApps/MathStarsiPad    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -fvisibility=hidden -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.3 -iquote "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Math Stars for iPad-generated-files.hmap" "-I/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Math Stars for iPad-own-target-headers.hmap" "-I/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Math Stars for iPad-all-target-headers.hmap" -iquote "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Math Stars for iPad-project-headers.hmap" -I/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/include "-I/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/DerivedSources/armv7" "-I/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/DerivedSources" -F/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos -F/Users/laurawhite/iPhoneApps/MathStarsiPad -include "/var/folders/f3/y79fwv_s6bs60sx_jn8fcflc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Math Stars for iPad_Prefix-fmlvyezclhzyyqemlqmugeukscxe/Math Stars for iPad_Prefix.pch" -MMD -MT dependencies -MF "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/NSString+SBJSON.d" -c /Users/laurawhite/iPhoneApps/MathStarsiPad/NSString+SBJSON.m -o "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/NSString+SBJSON.o"36"0EC57662-30AF-4185-A873-3BB406996844-
+
+CCompileC "build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/SBJSON.o" /Users/laurawhite/iPhoneApps/MathStarsiPad/SBJSON.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s352526586.002751
+e352526586.114200
+r1
+xCompileC
+xbuild/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/SBJSON.o
+x/Users/laurawhite/iPhoneApps/MathStarsiPad/SBJSON.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Compile /Users/laurawhite/iPhoneApps/MathStarsiPad/SBJSON.md0d300fa2003b541^4a271efa2003b541^---0#0#0#-19%DVTDocumentLocation2@67"file://localhost/Users/laurawhite/iPhoneApps/MathStarsiPad/SBJSON.m0000000000000000^2793"CompileC "build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/SBJSON.o" SBJSON.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/laurawhite/iPhoneApps/MathStarsiPad    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -fvisibility=hidden -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.3 -iquote "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Math Stars for iPad-generated-files.hmap" "-I/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Math Stars for iPad-own-target-headers.hmap" "-I/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Math Stars for iPad-all-target-headers.hmap" -iquote "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Math Stars for iPad-project-headers.hmap" -I/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/include "-I/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/DerivedSources/armv7" "-I/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/DerivedSources" -F/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos -F/Users/laurawhite/iPhoneApps/MathStarsiPad -include "/var/folders/f3/y79fwv_s6bs60sx_jn8fcflc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Math Stars for iPad_Prefix-fmlvyezclhzyyqemlqmugeukscxe/Math Stars for iPad_Prefix.pch" -MMD -MT dependencies -MF "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/SBJSON.d" -c /Users/laurawhite/iPhoneApps/MathStarsiPad/SBJSON.m -o "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/SBJSON.o"36"DD4B5E68-1FAF-4129-A8F6-939B4925C28E-
+
+CCompileC "build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/SBJsonBase.o" /Users/laurawhite/iPhoneApps/MathStarsiPad/SBJsonBase.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s352526586.035108
+e352526586.154002
+r1
+xCompileC
+xbuild/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/SBJsonBase.o
+x/Users/laurawhite/iPhoneApps/MathStarsiPad/SBJsonBase.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Compile /Users/laurawhite/iPhoneApps/MathStarsiPad/SBJsonBase.m821b09fa2003b541^af7b27fa2003b541^---0#0#0#-19%DVTDocumentLocation2@71"file://localhost/Users/laurawhite/iPhoneApps/MathStarsiPad/SBJsonBase.m0000000000000000^2813"CompileC "build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/SBJsonBase.o" SBJsonBase.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/laurawhite/iPhoneApps/MathStarsiPad    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -fvisibility=hidden -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.3 -iquote "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Math Stars for iPad-generated-files.hmap" "-I/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Math Stars for iPad-own-target-headers.hmap" "-I/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Math Stars for iPad-all-target-headers.hmap" -iquote "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Math Stars for iPad-project-headers.hmap" -I/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/include "-I/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/DerivedSources/armv7" "-I/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/DerivedSources" -F/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos -F/Users/laurawhite/iPhoneApps/MathStarsiPad -include "/var/folders/f3/y79fwv_s6bs60sx_jn8fcflc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Math Stars for iPad_Prefix-fmlvyezclhzyyqemlqmugeukscxe/Math Stars for iPad_Prefix.pch" -MMD -MT dependencies -MF "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/SBJsonBase.d" -c /Users/laurawhite/iPhoneApps/MathStarsiPad/SBJsonBase.m -o "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/SBJsonBase.o"36"7686760E-1095-47AF-90D4-1FA3AC8F8061-
+
+CCompileC "build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/SBJsonParser.o" /Users/laurawhite/iPhoneApps/MathStarsiPad/SBJsonParser.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s352526586.138720
+e352526586.276564
+r1
+xCompileC
+xbuild/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/SBJsonParser.o
+x/Users/laurawhite/iPhoneApps/MathStarsiPad/SBJsonParser.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Compile /Users/laurawhite/iPhoneApps/MathStarsiPad/SBJsonParser.mcf4c24fa2003b541^6ccd46fa2003b541^---0#0#0#-19%DVTDocumentLocation2@73"file://localhost/Users/laurawhite/iPhoneApps/MathStarsiPad/SBJsonParser.m0000000000000000^2823"CompileC "build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/SBJsonParser.o" SBJsonParser.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/laurawhite/iPhoneApps/MathStarsiPad    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -fvisibility=hidden -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.3 -iquote "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Math Stars for iPad-generated-files.hmap" "-I/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Math Stars for iPad-own-target-headers.hmap" "-I/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Math Stars for iPad-all-target-headers.hmap" -iquote "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Math Stars for iPad-project-headers.hmap" -I/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/include "-I/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/DerivedSources/armv7" "-I/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/DerivedSources" -F/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos -F/Users/laurawhite/iPhoneApps/MathStarsiPad -include "/var/folders/f3/y79fwv_s6bs60sx_jn8fcflc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Math Stars for iPad_Prefix-fmlvyezclhzyyqemlqmugeukscxe/Math Stars for iPad_Prefix.pch" -MMD -MT dependencies -MF "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/SBJsonParser.d" -c /Users/laurawhite/iPhoneApps/MathStarsiPad/SBJsonParser.m -o "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/SBJsonParser.o"36"ED15B4CF-8646-48C7-BB27-9E181187B060-
+
+CCompileC "build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/SBJsonWriter.o" /Users/laurawhite/iPhoneApps/MathStarsiPad/SBJsonWriter.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s352526586.155840
+e352526586.258875
+r1
+xCompileC
+xbuild/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/SBJsonWriter.o
+x/Users/laurawhite/iPhoneApps/MathStarsiPad/SBJsonWriter.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Compile /Users/laurawhite/iPhoneApps/MathStarsiPad/SBJsonWriter.mc40528fa2003b541^b95342fa2003b541^---0#0#0#-19%DVTDocumentLocation2@73"file://localhost/Users/laurawhite/iPhoneApps/MathStarsiPad/SBJsonWriter.m0000000000000000^2823"CompileC "build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/SBJsonWriter.o" SBJsonWriter.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/laurawhite/iPhoneApps/MathStarsiPad    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -fvisibility=hidden -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.3 -iquote "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Math Stars for iPad-generated-files.hmap" "-I/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Math Stars for iPad-own-target-headers.hmap" "-I/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Math Stars for iPad-all-target-headers.hmap" -iquote "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Math Stars for iPad-project-headers.hmap" -I/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/include "-I/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/DerivedSources/armv7" "-I/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/DerivedSources" -F/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos -F/Users/laurawhite/iPhoneApps/MathStarsiPad -include "/var/folders/f3/y79fwv_s6bs60sx_jn8fcflc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Math Stars for iPad_Prefix-fmlvyezclhzyyqemlqmugeukscxe/Math Stars for iPad_Prefix.pch" -MMD -MT dependencies -MF "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/SBJsonWriter.d" -c /Users/laurawhite/iPhoneApps/MathStarsiPad/SBJsonWriter.m -o "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/SBJsonWriter.o"36"6A1FFDFA-0273-437B-A339-EF19D5AA3D4A-
+
+CCompileC "build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/main.o" /Users/laurawhite/iPhoneApps/MathStarsiPad/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s352526584.653984
+e352526584.933999
+r1
+xCompileC
+xbuild/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/main.o
+x/Users/laurawhite/iPhoneApps/MathStarsiPad/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Compile /Users/laurawhite/iPhoneApps/MathStarsiPad/main.m9f8ea7f82003b541^1a1aeff82003b541^---0#0#0#-19%DVTDocumentLocation2@65"file://localhost/Users/laurawhite/iPhoneApps/MathStarsiPad/main.m0000000000000000^2783"CompileC "build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/main.o" main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/laurawhite/iPhoneApps/MathStarsiPad    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -fvisibility=hidden -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.3 -iquote "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Math Stars for iPad-generated-files.hmap" "-I/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Math Stars for iPad-own-target-headers.hmap" "-I/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Math Stars for iPad-all-target-headers.hmap" -iquote "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Math Stars for iPad-project-headers.hmap" -I/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/include "-I/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/DerivedSources/armv7" "-I/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/DerivedSources" -F/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos -F/Users/laurawhite/iPhoneApps/MathStarsiPad -include "/var/folders/f3/y79fwv_s6bs60sx_jn8fcflc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Math Stars for iPad_Prefix-fmlvyezclhzyyqemlqmugeukscxe/Math Stars for iPad_Prefix.pch" -MMD -MT dependencies -MF "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/main.d" -c /Users/laurawhite/iPhoneApps/MathStarsiPad/main.m -o "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/main.o"36"8B2CA232-964F-4180-B010-7FE365F731C1-
+
+CCompileXIB /Users/laurawhite/iPhoneApps/MathStarsiPad/Classes/../MainWindow.xib
+s352526581.686133
+e352526581.735777
+r1
+xCompileXIB
+x/Users/laurawhite/iPhoneApps/MathStarsiPad/Classes/../MainWindow.xib
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compiling /Users/laurawhite/iPhoneApps/MathStarsiPad/Classes/../MainWindow.xib27c1aff52003b541^2368bcf52003b541^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Users/laurawhite/iPhoneApps/MathStarsiPad/Classes/../MainWindow.xib0000000000000000^674"CompileXIB Classes/../MainWindow.xib    cd /Users/laurawhite/iPhoneApps/MathStarsiPad    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/MainWindow.nib" /Users/laurawhite/iPhoneApps/MathStarsiPad/Classes/../MainWindow.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk36"8AF90EC4-1BCC-428B-BC70-B2D11098850E-
+
+CCompileXIB /Users/laurawhite/iPhoneApps/MathStarsiPad/Classes/../MathStarsViewController.xib
+s352526581.686703
+e352526583.087440
+r1
+xCompileXIB
+x/Users/laurawhite/iPhoneApps/MathStarsiPad/Classes/../MathStarsViewController.xib
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compiling /Users/laurawhite/iPhoneApps/MathStarsiPad/Classes/../MathStarsViewController.xib51daaff52003b541^bb6216f72003b541^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/laurawhite/iPhoneApps/MathStarsiPad/Classes/../MathStarsViewController.xib0000000000000000^713"CompileXIB Classes/../MathStarsViewController.xib    cd /Users/laurawhite/iPhoneApps/MathStarsiPad    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/MathStarsViewController.nib" /Users/laurawhite/iPhoneApps/MathStarsiPad/Classes/../MathStarsViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk36"5610BE75-9E72-4C93-B2F4-791F1C90CFEA-
+
+CCompileXIB /Users/laurawhite/iPhoneApps/MathStarsiPad/Classes/GameViewController.xib
+s352526581.737017
+e352526581.975772
+r1
+xCompileXIB
+x/Users/laurawhite/iPhoneApps/MathStarsiPad/Classes/GameViewController.xib
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compiling /Users/laurawhite/iPhoneApps/MathStarsiPad/Classes/GameViewController.xibb6bebcf52003b541^aad7f9f52003b541^---0#0#0#-19%DVTDocumentLocation2@89"file://localhost/Users/laurawhite/iPhoneApps/MathStarsiPad/Classes/GameViewController.xib0000000000000000^692"CompileXIB Classes/GameViewController.xib    cd /Users/laurawhite/iPhoneApps/MathStarsiPad    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/GameViewController.nib" /Users/laurawhite/iPhoneApps/MathStarsiPad/Classes/GameViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk36"9666E6A4-D55E-47B8-B769-ED716B2594FB-
+
+CCompileXIB /Users/laurawhite/iPhoneApps/MathStarsiPad/iPad/MainWindow-iPad.xib
+s352526583.591833
+e352526583.723349
+r1
+xCompileXIB
+x/Users/laurawhite/iPhoneApps/MathStarsiPad/iPad/MainWindow-iPad.xib
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compiling /Users/laurawhite/iPhoneApps/MathStarsiPad/iPad/MainWindow-iPad.xib0c9597f72003b541^ed2db9f72003b541^---0#0#0#-19%DVTDocumentLocation2@83"file://localhost/Users/laurawhite/iPhoneApps/MathStarsiPad/iPad/MainWindow-iPad.xib0000000000000000^677"CompileXIB iPad/MainWindow-iPad.xib    cd /Users/laurawhite/iPhoneApps/MathStarsiPad    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/MainWindow-iPad.nib" /Users/laurawhite/iPhoneApps/MathStarsiPad/iPad/MainWindow-iPad.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk36"E0344C15-4813-4AA4-B3AA-C8C47E81F607-
+
+CCopyPNGFile "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/MathStarsIcon114pix.png" MathStarsIcon114pix.png
+s352526583.439847
+e352526583.590541
+r1
+xCopyPNGFile
+x/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/MathStarsIcon114pix.png
+xMathStarsIcon114pix.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"CopyPNGFile "build/Debug-iphoneos/Math Stars for iPad.app/MathStarsIcon114pix.png" MathStarsIcon114pix.png71ab70f72003b541^4d2d97f72003b541^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Users/laurawhite/iPhoneApps/MathStarsiPad/MathStarsIcon114pix.png0000000000000000^625"CopyPNGFile "build/Debug-iphoneos/Math Stars for iPad.app/MathStarsIcon114pix.png" MathStarsIcon114pix.png    cd /Users/laurawhite/iPhoneApps/MathStarsiPad    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/laurawhite/iPhoneApps/MathStarsiPad/MathStarsIcon114pix.png "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/MathStarsIcon114pix.png"36"D68E5442-371F-4FEB-8E3E-9F3D4DE1E166-
+
+CCopyPNGFile "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/MathStarsIcon512pix.png" MathStarsIcon512pix.png
+s352526583.450904
+e352526584.326031
+r1
+xCopyPNGFile
+x/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/MathStarsIcon512pix.png
+xMathStarsIcon512pix.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"CopyPNGFile "build/Debug-iphoneos/Math Stars for iPad.app/MathStarsIcon512pix.png" MathStarsIcon512pix.png568073f72003b541^c57653f82003b541^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Users/laurawhite/iPhoneApps/MathStarsiPad/MathStarsIcon512pix.png0000000000000000^625"CopyPNGFile "build/Debug-iphoneos/Math Stars for iPad.app/MathStarsIcon512pix.png" MathStarsIcon512pix.png    cd /Users/laurawhite/iPhoneApps/MathStarsiPad    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/laurawhite/iPhoneApps/MathStarsiPad/MathStarsIcon512pix.png "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/MathStarsIcon512pix.png"36"97ACDC8D-C3A9-43ED-AA87-49A4FD6D4419-
+
+CCopyPNGFile "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/MathStarsIcon57pix.png" MathStarsIcon57pix.png
+s352526583.343320
+e352526583.449597
+r1
+xCopyPNGFile
+x/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/MathStarsIcon57pix.png
+xMathStarsIcon57pix.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"CopyPNGFile "build/Debug-iphoneos/Math Stars for iPad.app/MathStarsIcon57pix.png" MathStarsIcon57pix.png0af657f72003b541^981873f72003b541^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Users/laurawhite/iPhoneApps/MathStarsiPad/MathStarsIcon57pix.png0000000000000000^621"CopyPNGFile "build/Debug-iphoneos/Math Stars for iPad.app/MathStarsIcon57pix.png" MathStarsIcon57pix.png    cd /Users/laurawhite/iPhoneApps/MathStarsiPad    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/laurawhite/iPhoneApps/MathStarsiPad/MathStarsIcon57pix.png "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/MathStarsIcon57pix.png"36"B337544A-2E25-4577-9719-EA9F7A3C9323-
+
+CCopyPNGFile "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/MathStarsIcon72.png" MathStarsIcon72.png
+s352526583.724664
+e352526583.887149
+r1
+xCopyPNGFile
+x/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/MathStarsIcon72.png
+xMathStarsIcon72.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"CopyPNGFile "build/Debug-iphoneos/Math Stars for iPad.app/MathStarsIcon72.png" MathStarsIcon72.png3196b9f72003b541^7428e3f72003b541^---0#0#0#-19%DVTDocumentLocation2@78"file://localhost/Users/laurawhite/iPhoneApps/MathStarsiPad/MathStarsIcon72.png0000000000000000^609"CopyPNGFile "build/Debug-iphoneos/Math Stars for iPad.app/MathStarsIcon72.png" MathStarsIcon72.png    cd /Users/laurawhite/iPhoneApps/MathStarsiPad    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/laurawhite/iPhoneApps/MathStarsiPad/MathStarsIcon72.png "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/MathStarsIcon72.png"36"971D3A23-C566-4A45-BC93-E2BA442FE2D2-
+
+CCopyPNGFile "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/NonSmiling_Star200.png" NonSmiling_Star200.png
+s352526583.240895
+e352526583.438589
+r1
+xCopyPNGFile
+x/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/NonSmiling_Star200.png
+xNonSmiling_Star200.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"CopyPNGFile "build/Debug-iphoneos/Math Stars for iPad.app/NonSmiling_Star200.png" NonSmiling_Star200.png51bd3df72003b541^fa4670f72003b541^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Users/laurawhite/iPhoneApps/MathStarsiPad/NonSmiling_Star200.png0000000000000000^621"CopyPNGFile "build/Debug-iphoneos/Math Stars for iPad.app/NonSmiling_Star200.png" NonSmiling_Star200.png    cd /Users/laurawhite/iPhoneApps/MathStarsiPad    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/laurawhite/iPhoneApps/MathStarsiPad/NonSmiling_Star200.png "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/NonSmiling_Star200.png"36"88EE213C-3863-4574-96A0-B5AE88104E8B-
+
+CCopyPNGFile "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/Number_Star100.png" Number_Star100.png
+s352526583.045504
+e352526583.239627
+r1
+xCopyPNGFile
+x/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/Number_Star100.png
+xNumber_Star100.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"CopyPNGFile "build/Debug-iphoneos/Math Stars for iPad.app/Number_Star100.png" Number_Star100.png66be0bf72003b541^ef573df72003b541^---0#0#0#-19%DVTDocumentLocation2@77"file://localhost/Users/laurawhite/iPhoneApps/MathStarsiPad/Number_Star100.png0000000000000000^605"CopyPNGFile "build/Debug-iphoneos/Math Stars for iPad.app/Number_Star100.png" Number_Star100.png    cd /Users/laurawhite/iPhoneApps/MathStarsiPad    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/laurawhite/iPhoneApps/MathStarsiPad/Number_Star100.png "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/Number_Star100.png"36"48C67BED-1A88-45FB-9EE5-5340D9E57AE9-
+
+CCopyPNGFile "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/Smiling_Star.png" Classes/Smiling_Star.png
+s352526583.088740
+e352526583.342057
+r1
+xCopyPNGFile
+x/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/Smiling_Star.png
+xClasses/Smiling_Star.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"CopyPNGFile "build/Debug-iphoneos/Math Stars for iPad.app/Smiling_Star.png" Classes/Smiling_Star.pngcdca16f72003b541^119057f72003b541^---0#0#0#-19%DVTDocumentLocation2@83"file://localhost/Users/laurawhite/iPhoneApps/MathStarsiPad/Classes/Smiling_Star.png0000000000000000^613"CopyPNGFile "build/Debug-iphoneos/Math Stars for iPad.app/Smiling_Star.png" Classes/Smiling_Star.png    cd /Users/laurawhite/iPhoneApps/MathStarsiPad    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/laurawhite/iPhoneApps/MathStarsiPad/Classes/Smiling_Star.png "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/Smiling_Star.png"36"81798D5E-B73F-42BC-8CD7-AE2D40E927FC-
+
+CCopyPNGFile "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/backBoard.png" backBoard.png
+s352526581.977073
+e352526582.361676
+r1
+xCopyPNGFile
+x/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/backBoard.png
+xbackBoard.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"CopyPNGFile "build/Debug-iphoneos/Math Stars for iPad.app/backBoard.png" backBoard.png5534faf52003b541^89965cf62003b541^---0#0#0#-19%DVTDocumentLocation2@72"file://localhost/Users/laurawhite/iPhoneApps/MathStarsiPad/backBoard.png0000000000000000^585"CopyPNGFile "build/Debug-iphoneos/Math Stars for iPad.app/backBoard.png" backBoard.png    cd /Users/laurawhite/iPhoneApps/MathStarsiPad    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/laurawhite/iPhoneApps/MathStarsiPad/backBoard.png "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/backBoard.png"36"3AAEC2AF-493B-43D0-A85F-085B21AF1133-
+
+CCopyPNGFile "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/buttonback.png" buttonback.png
+s352526582.362896
+e352526582.500893
+r1
+xCopyPNGFile
+x/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/buttonback.png
+xbuttonback.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"CopyPNGFile "build/Debug-iphoneos/Math Stars for iPad.app/buttonback.png" buttonback.png34125df62003b541^003a80f62003b541^---0#0#0#-19%DVTDocumentLocation2@73"file://localhost/Users/laurawhite/iPhoneApps/MathStarsiPad/buttonback.png0000000000000000^589"CopyPNGFile "build/Debug-iphoneos/Math Stars for iPad.app/buttonback.png" buttonback.png    cd /Users/laurawhite/iPhoneApps/MathStarsiPad    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/laurawhite/iPhoneApps/MathStarsiPad/buttonback.png "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/buttonback.png"36"BA84A11F-5BFE-4165-8BBD-6FE7C8BE3CB7-
+
+CCopyPNGFile "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/comboStar.png" comboStar.png
+s352526582.605495
+e352526582.713126
+r1
+xCopyPNGFile
+x/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/comboStar.png
+xcomboStar.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"CopyPNGFile "build/Debug-iphoneos/Math Stars for iPad.app/comboStar.png" comboStar.pnga0169bf62003b541^198fb6f62003b541^---0#0#0#-19%DVTDocumentLocation2@72"file://localhost/Users/laurawhite/iPhoneApps/MathStarsiPad/comboStar.png0000000000000000^585"CopyPNGFile "build/Debug-iphoneos/Math Stars for iPad.app/comboStar.png" comboStar.png    cd /Users/laurawhite/iPhoneApps/MathStarsiPad    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/laurawhite/iPhoneApps/MathStarsiPad/comboStar.png "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/comboStar.png"36"0D1B6B4E-F111-447F-89A5-0CD1258C6872-
+
+CCopyPNGFile "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/icon.png" icon.png
+s352526582.918524
+e352526583.025186
+r1
+xCopyPNGFile
+x/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/icon.png
+xicon.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"CopyPNGFile "build/Debug-iphoneos/Math Stars for iPad.app/icon.png" icon.png3736ebf62003b541^757206f72003b541^---0#0#0#-19%DVTDocumentLocation2@67"file://localhost/Users/laurawhite/iPhoneApps/MathStarsiPad/icon.png0000000000000000^565"CopyPNGFile "build/Debug-iphoneos/Math Stars for iPad.app/icon.png" icon.png    cd /Users/laurawhite/iPhoneApps/MathStarsiPad    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/laurawhite/iPhoneApps/MathStarsiPad/icon.png "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/icon.png"36"1E035A44-89F7-4843-AAC9-A1482309D7BA-
+
+CCopyPNGFile "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/icon2x.png" icon2x.png
+s352526582.761852
+e352526582.917199
+r1
+xCopyPNGFile
+x/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/icon2x.png
+xicon2x.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"CopyPNGFile "build/Debug-iphoneos/Math Stars for iPad.app/icon2x.png" icon2x.png651cc3f62003b541^29cdeaf62003b541^---0#0#0#-19%DVTDocumentLocation2@69"file://localhost/Users/laurawhite/iPhoneApps/MathStarsiPad/icon2x.png0000000000000000^573"CopyPNGFile "build/Debug-iphoneos/Math Stars for iPad.app/icon2x.png" icon2x.png    cd /Users/laurawhite/iPhoneApps/MathStarsiPad    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/laurawhite/iPhoneApps/MathStarsiPad/icon2x.png "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/icon2x.png"36"5693B0F4-1418-48DD-B669-3F8DA7BD2EC9-
+
+CCopyPNGFile "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/star.png" star.png
+s352526582.502195
+e352526582.604241
+r1
+xCopyPNGFile
+x/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/star.png
+xstar.png
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"CopyPNGFile "build/Debug-iphoneos/Math Stars for iPad.app/star.png" star.png77a280f62003b541^b0ae9af62003b541^---0#0#0#-19%DVTDocumentLocation2@67"file://localhost/Users/laurawhite/iPhoneApps/MathStarsiPad/star.png0000000000000000^565"CopyPNGFile "build/Debug-iphoneos/Math Stars for iPad.app/star.png" star.png    cd /Users/laurawhite/iPhoneApps/MathStarsiPad    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/PrivatePlugIns/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/laurawhite/iPhoneApps/MathStarsiPad/star.png "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/star.png"36"3505CEE5-3FB3-4A17-BEB7-46E44D2909D4-
+
+CCpResource /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/ResourceRules.plist "build/Debug-iphoneos/Math Stars for iPad.app/ResourceRules.plist"
+s352526581.671878
+e352526581.675783
+r1
+xCpResource
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/ResourceRules.plist
+xbuild/Debug-iphoneos/Math Stars for iPad.app/ResourceRules.plist
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Copy build/Debug-iphoneos/Math Stars for iPad.app/ResourceRules.plist4d15acf52003b541^9b02adf52003b541^---0#0#0#-19%DVTDocumentLocation2@129"file://localhost/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math%20Stars%20for%20iPad.app/ResourceRules.plist00f438d2dcffdf42^634"CpResource /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/ResourceRules.plist "build/Debug-iphoneos/Math Stars for iPad.app/ResourceRules.plist"    cd /Users/laurawhite/iPhoneApps/MathStarsiPad    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/ResourceRules.plist "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app"36"054ECA77-A99D-4EA9-8F0A-9700A965E923-
+
+CCpResource FBDialog.bundle "build/Debug-iphoneos/Math Stars for iPad.app/FBDialog.bundle"
+s352526582.746943
+e352526582.752235
+r1
+xCpResource
+xFBDialog.bundle
+xbuild/Debug-iphoneos/Math Stars for iPad.app/FBDialog.bundle
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Copy build/Debug-iphoneos/Math Stars for iPad.app/FBDialog.bundle58c5bff62003b541^0b9cc0f62003b541^---0#0#0#-19%DVTDocumentLocation2@125"file://localhost/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math%20Stars%20for%20iPad.app/FBDialog.bundle00f438d2dcffdf42^525"CpResource FBDialog.bundle "build/Debug-iphoneos/Math Stars for iPad.app/FBDialog.bundle"    cd /Users/laurawhite/iPhoneApps/MathStarsiPad    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/laurawhite/iPhoneApps/MathStarsiPad/FBDialog.bundle "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app"36"C0414DAF-7A27-4B74-8BAC-A773E6BACF3C-
+
+CCpResource Pinball.mp3 "build/Debug-iphoneos/Math Stars for iPad.app/Pinball.mp3"
+s352526582.714402
+e352526582.734235
+r1
+xCpResource
+xPinball.mp3
+xbuild/Debug-iphoneos/Math Stars for iPad.app/Pinball.mp3
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Copy build/Debug-iphoneos/Math Stars for iPad.app/Pinball.mp399f5b6f62003b541^3603bcf62003b541^---0#0#0#-19%DVTDocumentLocation2@121"file://localhost/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math%20Stars%20for%20iPad.app/Pinball.mp300f438d2dcffdf42^513"CpResource Pinball.mp3 "build/Debug-iphoneos/Math Stars for iPad.app/Pinball.mp3"    cd /Users/laurawhite/iPhoneApps/MathStarsiPad    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/laurawhite/iPhoneApps/MathStarsiPad/Pinball.mp3 "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app"36"63CE2B68-1C1E-4030-8D2F-B76BB35D9FA5-
+
+CCpResource RightAnswer.mp3 "build/Debug-iphoneos/Math Stars for iPad.app/RightAnswer.mp3"
+s352526583.026472
+e352526583.029547
+r1
+xCpResource
+xRightAnswer.mp3
+xbuild/Debug-iphoneos/Math Stars for iPad.app/RightAnswer.mp3
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Copy build/Debug-iphoneos/Math Stars for iPad.app/RightAnswer.mp306d906f72003b541^289a07f72003b541^---0#0#0#-19%DVTDocumentLocation2@125"file://localhost/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math%20Stars%20for%20iPad.app/RightAnswer.mp300f438d2dcffdf42^525"CpResource RightAnswer.mp3 "build/Debug-iphoneos/Math Stars for iPad.app/RightAnswer.mp3"    cd /Users/laurawhite/iPhoneApps/MathStarsiPad    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/laurawhite/iPhoneApps/MathStarsiPad/RightAnswer.mp3 "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app"36"E03DA9AA-2A09-4B9D-AF6E-DC576F0B404D-
+
+CCpResource RightAnswer.wav "build/Debug-iphoneos/Math Stars for iPad.app/RightAnswer.wav"
+s352526583.034858
+e352526583.038855
+r1
+xCpResource
+xRightAnswer.wav
+xbuild/Debug-iphoneos/Math Stars for iPad.app/RightAnswer.wav
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Copy build/Debug-iphoneos/Math Stars for iPad.app/RightAnswer.wavdffe08f72003b541^99f209f72003b541^---0#0#0#-19%DVTDocumentLocation2@125"file://localhost/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math%20Stars%20for%20iPad.app/RightAnswer.wav00f438d2dcffdf42^525"CpResource RightAnswer.wav "build/Debug-iphoneos/Math Stars for iPad.app/RightAnswer.wav"    cd /Users/laurawhite/iPhoneApps/MathStarsiPad    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/laurawhite/iPhoneApps/MathStarsiPad/RightAnswer.wav "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app"36"A7A03345-4A2E-4112-975A-8F6250F8B41C-
+
+CCpResource Tafi.mp3 "build/Debug-iphoneos/Math Stars for iPad.app/Tafi.mp3"
+s352526582.737856
+e352526582.745730
+r1
+xCpResource
+xTafi.mp3
+xbuild/Debug-iphoneos/Math Stars for iPad.app/Tafi.mp3
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Copy build/Debug-iphoneos/Math Stars for iPad.app/Tafi.mp388f7bcf62003b541^ccf1bef62003b541^---0#0#0#-19%DVTDocumentLocation2@118"file://localhost/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math%20Stars%20for%20iPad.app/Tafi.mp300f438d2dcffdf42^504"CpResource Tafi.mp3 "build/Debug-iphoneos/Math Stars for iPad.app/Tafi.mp3"    cd /Users/laurawhite/iPhoneApps/MathStarsiPad    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/laurawhite/iPhoneApps/MathStarsiPad/Tafi.mp3 "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app"36"DA65A5CE-D0C2-4730-9C60-5AE7C61AC608-
+
+CCpResource WrongAnswer.mp3 "build/Debug-iphoneos/Math Stars for iPad.app/WrongAnswer.mp3"
+s352526583.030816
+e352526583.033618
+r1
+xCpResource
+xWrongAnswer.mp3
+xbuild/Debug-iphoneos/Math Stars for iPad.app/WrongAnswer.mp3
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Copy build/Debug-iphoneos/Math Stars for iPad.app/WrongAnswer.mp3d8f507f72003b541^98a608f72003b541^---0#0#0#-19%DVTDocumentLocation2@125"file://localhost/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math%20Stars%20for%20iPad.app/WrongAnswer.mp300f438d2dcffdf42^525"CpResource WrongAnswer.mp3 "build/Debug-iphoneos/Math Stars for iPad.app/WrongAnswer.mp3"    cd /Users/laurawhite/iPhoneApps/MathStarsiPad    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/laurawhite/iPhoneApps/MathStarsiPad/WrongAnswer.mp3 "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app"36"396492BB-BCAE-44E6-BBB5-9F4F8C9F66B5-
+
+CCpResource WrongAnswer.wav "build/Debug-iphoneos/Math Stars for iPad.app/WrongAnswer.wav"
+s352526583.040191
+e352526583.044221
+r1
+xCpResource
+xWrongAnswer.wav
+xbuild/Debug-iphoneos/Math Stars for iPad.app/WrongAnswer.wav
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Copy build/Debug-iphoneos/Math Stars for iPad.app/WrongAnswer.wavb85b0af72003b541^22520bf72003b541^---0#0#0#-19%DVTDocumentLocation2@125"file://localhost/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math%20Stars%20for%20iPad.app/WrongAnswer.wav00f438d2dcffdf42^525"CpResource WrongAnswer.wav "build/Debug-iphoneos/Math Stars for iPad.app/WrongAnswer.wav"    cd /Users/laurawhite/iPhoneApps/MathStarsiPad    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/laurawhite/iPhoneApps/MathStarsiPad/WrongAnswer.wav "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app"36"A4F382B4-3298-4AFF-B319-AA2F6B14A0AF-
+
+CCpResource clap.wav "build/Debug-iphoneos/Math Stars for iPad.app/clap.wav"
+s352526582.753525
+e352526582.756437
+r1
+xCpResource
+xclap.wav
+xbuild/Debug-iphoneos/Math Stars for iPad.app/clap.wav
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Copy build/Debug-iphoneos/Math Stars for iPad.app/clap.wavbefac0f62003b541^87a5c1f62003b541^---0#0#0#-19%DVTDocumentLocation2@118"file://localhost/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math%20Stars%20for%20iPad.app/clap.wav00f438d2dcffdf42^504"CpResource clap.wav "build/Debug-iphoneos/Math Stars for iPad.app/clap.wav"    cd /Users/laurawhite/iPhoneApps/MathStarsiPad    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/laurawhite/iPhoneApps/MathStarsiPad/clap.wav "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app"36"4FF43E75-E449-4009-B63D-34B196C249A1-
+
+CCpResource hmm.wav "build/Debug-iphoneos/Math Stars for iPad.app/hmm.wav"
+s352526582.758253
+e352526582.760593
+r1
+xCpResource
+xhmm.wav
+xbuild/Debug-iphoneos/Math Stars for iPad.app/hmm.wav
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Copy build/Debug-iphoneos/Math Stars for iPad.app/hmm.wav8c2fc2f62003b541^dbbfc2f62003b541^---0#0#0#-19%DVTDocumentLocation2@117"file://localhost/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math%20Stars%20for%20iPad.app/hmm.wav00f438d2dcffdf42^501"CpResource hmm.wav "build/Debug-iphoneos/Math Stars for iPad.app/hmm.wav"    cd /Users/laurawhite/iPhoneApps/MathStarsiPad    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/laurawhite/iPhoneApps/MathStarsiPad/hmm.wav "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app"36"17FD5179-8286-4EAD-B1FD-29CF02852589-
+
+CGenerateDSYMFile "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app.dSYM" "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/Math Stars for iPad"
+s352526586.407027
+e352526586.458990
+r1
+xGenerateDSYMFile
+x/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app.dSYM
+x/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/Math Stars for iPad
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Generating /Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app.dSYMc74668fa2003b541^737f75fa2003b541^---0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math%20Stars%20for%20iPad.app.dSYM00f438d2dcffdf42^550"GenerateDSYMFile "build/Debug-iphoneos/Math Stars for iPad.app.dSYM" "build/Debug-iphoneos/Math Stars for iPad.app/Math Stars for iPad"    cd /Users/laurawhite/iPhoneApps/MathStarsiPad    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/Math Stars for iPad" -o "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app.dSYM"36"3D7C2D33-5D57-44B0-9F8D-780C29E3C57B-
+
+CLd "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/Math Stars for iPad" normal armv7
+s352526586.284881
+e352526586.399171
+r1
+xLd
+x/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/Math Stars for iPad
+xnormal
+xarmv7
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"Link /Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/Math Stars for iPad570649fa2003b541^ad2f66fa2003b541^---0#0#0#--1114"Ld "build/Debug-iphoneos/Math Stars for iPad.app/Math Stars for iPad" normal armv7    cd /Users/laurawhite/iPhoneApps/MathStarsiPad    setenv IPHONEOS_DEPLOYMENT_TARGET 4.3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -L/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos -F/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos -F/Users/laurawhite/iPhoneApps/MathStarsiPad -filelist "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Objects-normal/armv7/Math Stars for iPad.LinkFileList" -dead_strip -miphoneos-version-min=4.3 -framework AudioToolbox -framework AVFoundation -framework GameKit -framework Foundation -framework UIKit -framework CoreGraphics -framework iAd -o "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/Math Stars for iPad"36"698DE801-150C-49A8-810D-18344DC13035-
+
+CProcessInfoPlistFile "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/Info.plist" "Math Stars for iPad-Info.plist"
+s352526581.672369
+e352526581.677549
+r1
+xProcessInfoPlistFile
+x/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/Info.plist
+xMath Stars for iPad-Info.plist
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection38"Process Math Stars for iPad-Info.plist302facf52003b541^7573adf52003b541^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/laurawhite/iPhoneApps/MathStarsiPad/Math%20Stars%20for%20iPad-Info.plist0000000000000000^746"ProcessInfoPlistFile "build/Debug-iphoneos/Math Stars for iPad.app/Info.plist" "Math Stars for iPad-Info.plist"    cd /Users/laurawhite/iPhoneApps/MathStarsiPad    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility "Math Stars for iPad-Info.plist" -genpkginfo "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/PkgInfo" -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/ResourceRules.plist" -o "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/Info.plist"36"5749B6E7-2251-4F42-B9E1-0BC1BF63A80C-
+
+CProcessPCH "/Users/laurawhite/Library/Developer/Xcode/DerivedData/Math_Stars_for_iPad-gmhpkwmtvgvhhvbeoyqhmxjwptur/Index/PrecompiledHeaders/Math Stars for iPad_Prefix-evwbmsqtgypxsbcbcmuzbpxfntam_ast/Math Stars for iPad_Prefix.pch.pth" "Math Stars for iPad_Prefix.pch" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH "/var/folders/f3/y79fwv_s6bs60sx_jn8fcflc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Math Stars for iPad_Prefix-fmlvyezclhzyyqemlqmugeukscxe/Math Stars for iPad_Prefix.pch.pth" "Math Stars for iPad_Prefix.pch" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s352526584.334898
+e352526584.646774
+r1
+xProcessPCH
+x/var/folders/f3/y79fwv_s6bs60sx_jn8fcflc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Math Stars for iPad_Prefix-fmlvyezclhzyyqemlqmugeukscxe/Math Stars for iPad_Prefix.pch.pth
+xMath Stars for iPad_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Precompile Math Stars for iPad_Prefix.pchbadb55f82003b541^ac91a5f82003b541^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/laurawhite/iPhoneApps/MathStarsiPad/Math%20Stars%20for%20iPad_Prefix.pch0000000000000000^2816"ProcessPCH "/var/folders/f3/y79fwv_s6bs60sx_jn8fcflc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Math Stars for iPad_Prefix-fmlvyezclhzyyqemlqmugeukscxe/Math Stars for iPad_Prefix.pch.pth" "Math Stars for iPad_Prefix.pch" normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/laurawhite/iPhoneApps/MathStarsiPad    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-shorten-64-to-32 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk -gdwarf-2 -fvisibility=hidden -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=4.3 -iquote "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Math Stars for iPad-generated-files.hmap" "-I/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Math Stars for iPad-own-target-headers.hmap" "-I/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Math Stars for iPad-all-target-headers.hmap" -iquote "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Math Stars for iPad-project-headers.hmap" -I/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/include "-I/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/DerivedSources/armv7" "-I/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/DerivedSources" -F/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos -F/Users/laurawhite/iPhoneApps/MathStarsiPad -c "/Users/laurawhite/iPhoneApps/MathStarsiPad/Math Stars for iPad_Prefix.pch" -o "/var/folders/f3/y79fwv_s6bs60sx_jn8fcflc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Math Stars for iPad_Prefix-fmlvyezclhzyyqemlqmugeukscxe/Math Stars for iPad_Prefix.pch.pth" -MMD -MT dependencies -MF "/var/folders/f3/y79fwv_s6bs60sx_jn8fcflc0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Math Stars for iPad_Prefix-fmlvyezclhzyyqemlqmugeukscxe/Math Stars for iPad_Prefix.pch.d"36"28F651CA-1335-4471-956D-07AEA8A51393-
+
+CProcessProductPackaging "/Users/laurawhite/Library/MobileDevice/Provisioning Profiles/95848DBF-DCB2-4272-A64A-92ACC6D541E0.mobileprovision" "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/embedded.mobileprovision"
+s352526586.480445
+e352526586.483934
+r1
+xProcessProductPackaging
+x/Users/laurawhite/Library/MobileDevice/Provisioning Profiles/95848DBF-DCB2-4272-A64A-92ACC6D541E0.mobileprovision
+x/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/embedded.mobileprovision
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection211"ProcessProductPackaging "/Users/laurawhite/Library/MobileDevice/Provisioning Profiles/95848DBF-DCB2-4272-A64A-92ACC6D541E0.mobileprovision" "build/Debug-iphoneos/Math Stars for iPad.app/embedded.mobileprovision"ba147bfa2003b541^8fe37bfa2003b541^---0#0#0#-19%DVTDocumentLocation2@134"file://localhost/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math%20Stars%20for%20iPad.app/embedded.mobileprovision0000000000000000^656"ProcessProductPackaging "/Users/laurawhite/Library/MobileDevice/Provisioning Profiles/95848DBF-DCB2-4272-A64A-92ACC6D541E0.mobileprovision" "build/Debug-iphoneos/Math Stars for iPad.app/embedded.mobileprovision"    cd /Users/laurawhite/iPhoneApps/MathStarsiPad    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility "/Users/laurawhite/Library/MobileDevice/Provisioning Profiles/95848DBF-DCB2-4272-A64A-92ACC6D541E0.mobileprovision" -o "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app/embedded.mobileprovision"36"144CEBFC-59D3-47BA-909F-8066DBC7B1D0-
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Math Stars for iPad.xcent"
+s352526586.515681
+e352526586.538912
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist
+x/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Math Stars for iPad.xcent
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection213"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist "build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Math Stars for iPad.xcent"7b1684fa2003b541^b2f489fa2003b541^---0#0#0#-19%DVTDocumentLocation2@175"file://localhost/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math%20Stars%20for%20iPad.build/Debug-iphoneos/Math%20Stars%20for%20iPad.build/Math%20Stars%20for%20iPad.xcent00f438d2dcffdf42^686"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist "build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Math Stars for iPad.xcent"    cd /Users/laurawhite/iPhoneApps/MathStarsiPad    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/Entitlements.plist -entitlements -format xml -o "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Math Stars for iPad.build/Debug-iphoneos/Math Stars for iPad.build/Math Stars for iPad.xcent"36"18446036-AC98-401C-8CA6-8475C5819839-
+
+CTouch "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app"
+s352526586.492775
+e352526586.506511
+r1
+xTouch
+x/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Touch /Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app3b367efa2003b541^3bab81fa2003b541^---0#0#0#--339"Touch "build/Debug-iphoneos/Math Stars for iPad.app"    cd /Users/laurawhite/iPhoneApps/MathStarsiPad    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/laurawhite/iPhoneApps/MathStarsiPad/build/Debug-iphoneos/Math Stars for iPad.app"36"593D218E-AAA7-46E1-B314-2CD8D726118C-
+

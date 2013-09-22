@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* MathStarsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* MathStarsAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* MathStarsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* MathStarsViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* MathStarsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* MathStarsViewController.m */; };
+		4FE5817013BE5B3E00119D41 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FE5816F13BE5B3E00119D41 /* AudioToolbox.framework */; };
+		4FE5817413BE63CF00119D41 /* icon2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FE5817313BE63CF00119D41 /* icon2x.png */; };
+		4FE5817613BE643100119D41 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FE5817513BE643100119D41 /* icon.png */; };
+		820130D017EF93160026E531 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 820130CF17EF93160026E531 /* Images.xcassets */; };
+		8402305913AE7DFE009713EB /* Pinball.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8402305713AE7DFE009713EB /* Pinball.mp3 */; };
+		8402305C13AE7E0B009713EB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8402305B13AE7E0B009713EB /* AVFoundation.framework */; };
+		840230D313B2E7EA009713EB /* FBDialog.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 840230C613B2E7EA009713EB /* FBDialog.bundle */; };
+		840230D413B2E7EA009713EB /* Facebook.m in Sources */ = {isa = PBXBuildFile; fileRef = 840230CC13B2E7EA009713EB /* Facebook.m */; };
+		840230D513B2E7EA009713EB /* FBDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 840230CD13B2E7EA009713EB /* FBDialog.m */; };
+		840230D613B2E7EA009713EB /* FBLoginDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 840230CE13B2E7EA009713EB /* FBLoginDialog.m */; };
+		840230D713B2E7EA009713EB /* FBRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 840230CF13B2E7EA009713EB /* FBRequest.m */; };
+		840230D813B2E7EA009713EB /* FacebookManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 840230D213B2E7EA009713EB /* FacebookManager.m */; };
+		840230E713B2E828009713EB /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 840230DC13B2E828009713EB /* NSObject+SBJSON.m */; };
+		840230E813B2E828009713EB /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 840230DE13B2E828009713EB /* NSString+SBJSON.m */; };
+		840230E913B2E828009713EB /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 840230E013B2E828009713EB /* SBJSON.m */; };
+		840230EA13B2E828009713EB /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 840230E213B2E828009713EB /* SBJsonBase.m */; };
+		840230EB13B2E828009713EB /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 840230E413B2E828009713EB /* SBJsonParser.m */; };
+		840230EC13B2E828009713EB /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 840230E613B2E828009713EB /* SBJsonWriter.m */; };
+		840A54A91388722500A09D7B /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840A54A81388722500A09D7B /* GameKit.framework */; };
+		848193DC13861AC500AE1FA0 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848193DA13861AC500AE1FA0 /* GameViewController.m */; };
+		848193DD13861AC500AE1FA0 /* GameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 848193DB13861AC500AE1FA0 /* GameViewController.xib */; };
+		84938C6E13DA7FE4002BAAF3 /* Number_Star100.png in Resources */ = {isa = PBXBuildFile; fileRef = 84938C6D13DA7FE4002BAAF3 /* Number_Star100.png */; };
+		84938C7013DA899C002BAAF3 /* Smiling_Star.png in Resources */ = {isa = PBXBuildFile; fileRef = 84938C6F13DA899C002BAAF3 /* Smiling_Star.png */; };
+		84938C7213DA8A13002BAAF3 /* NonSmiling_Star200.png in Resources */ = {isa = PBXBuildFile; fileRef = 84938C7113DA8A13002BAAF3 /* NonSmiling_Star200.png */; };
+		8498D70713BECA08005FBD78 /* RightAnswer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8498D70513BECA08005FBD78 /* RightAnswer.mp3 */; };
+		8498D70A13BECA58005FBD78 /* WrongAnswer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8498D70913BECA58005FBD78 /* WrongAnswer.mp3 */; };
+		8498D70C13BECCD4005FBD78 /* RightAnswer.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8498D70B13BECCD4005FBD78 /* RightAnswer.wav */; };
+		8498D70E13BECDF4005FBD78 /* WrongAnswer.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8498D70D13BECDF4005FBD78 /* WrongAnswer.wav */; };
+		84D7D67A1395A93C000EE3F4 /* buttonback.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D7D6791395A93C000EE3F4 /* buttonback.png */; };
+		84EA23E9139C6F96000367DB /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 84EA23E8139C6F96000367DB /* star.png */; };
+		84EA23EB139C6FC6000367DB /* comboStar.png in Resources */ = {isa = PBXBuildFile; fileRef = 84EA23EA139C6FC6000367DB /* comboStar.png */; };
+		ED163F0B13F6FA46005903C0 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED163F0A13F6FA46005903C0 /* iAd.framework */; };
+		ED6D6987143A75A70032ACFA /* MainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED6D6986143A75A70032ACFA /* MainWindow-iPad.xib */; };
+		EDB718C415BE2E66005D3C8C /* MathStarsIcon144pix.png in Resources */ = {isa = PBXBuildFile; fileRef = EDB718C315BE2E66005D3C8C /* MathStarsIcon144pix.png */; };
+		EDEA621414F46CA60040E4F5 /* MathStarsIcon72.png in Resources */ = {isa = PBXBuildFile; fileRef = EDEA621314F46CA60040E4F5 /* MathStarsIcon72.png */; };
+		EDFB45A713F81C3800F85680 /* MathStarsIcon57pix.png in Resources */ = {isa = PBXBuildFile; fileRef = EDFB45A613F81C3800F85680 /* MathStarsIcon57pix.png */; };
+		EDFB45A913F81C4000F85680 /* MathStarsIcon114pix.png in Resources */ = {isa = PBXBuildFile; fileRef = EDFB45A813F81C4000F85680 /* MathStarsIcon114pix.png */; };
+		EDFB45AB13F81C4E00F85680 /* MathStarsIcon512pix.png in Resources */ = {isa = PBXBuildFile; fileRef = EDFB45AA13F81C4E00F85680 /* MathStarsIcon512pix.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* MathStarsAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathStarsAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* MathStarsAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MathStarsAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* Math Stars for iPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Math Stars for iPad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* MathStarsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MathStarsViewController.xib; path = ../MathStarsViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainWindow.xib; path = ../MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* MathStarsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathStarsViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* MathStarsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MathStarsViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* Math Stars for iPad_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Math Stars for iPad_Prefix.pch"; sourceTree = "<group>"; };
+		4FE5816F13BE5B3E00119D41 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		4FE5817313BE63CF00119D41 /* icon2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon2x.png; sourceTree = "<group>"; };
+		4FE5817513BE643100119D41 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		820130CF17EF93160026E531 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "Math Stars for iPad/Images.xcassets"; sourceTree = "<group>"; };
+		8402305713AE7DFE009713EB /* Pinball.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Pinball.mp3; sourceTree = "<group>"; };
+		8402305B13AE7E0B009713EB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		840230C613B2E7EA009713EB /* FBDialog.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FBDialog.bundle; sourceTree = "<group>"; };
+		840230C713B2E7EA009713EB /* Facebook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Facebook.h; sourceTree = "<group>"; };
+		840230C813B2E7EA009713EB /* FBConnect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBConnect.h; sourceTree = "<group>"; };
+		840230C913B2E7EA009713EB /* FBDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBDialog.h; sourceTree = "<group>"; };
+		840230CA13B2E7EA009713EB /* FBRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBRequest.h; sourceTree = "<group>"; };
+		840230CB13B2E7EA009713EB /* facebook_ios_sdk_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = facebook_ios_sdk_Prefix.pch; sourceTree = "<group>"; };
+		840230CC13B2E7EA009713EB /* Facebook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Facebook.m; sourceTree = "<group>"; };
+		840230CD13B2E7EA009713EB /* FBDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBDialog.m; sourceTree = "<group>"; };
+		840230CE13B2E7EA009713EB /* FBLoginDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBLoginDialog.m; sourceTree = "<group>"; };
+		840230CF13B2E7EA009713EB /* FBRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBRequest.m; sourceTree = "<group>"; };
+		840230D013B2E7EA009713EB /* FBLoginDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBLoginDialog.h; sourceTree = "<group>"; };
+		840230D113B2E7EA009713EB /* FacebookManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FacebookManager.h; sourceTree = "<group>"; };
+		840230D213B2E7EA009713EB /* FacebookManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FacebookManager.m; sourceTree = "<group>"; };
+		840230DA13B2E828009713EB /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		840230DB13B2E828009713EB /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		840230DC13B2E828009713EB /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		840230DD13B2E828009713EB /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		840230DE13B2E828009713EB /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		840230DF13B2E828009713EB /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		840230E013B2E828009713EB /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		840230E113B2E828009713EB /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		840230E213B2E828009713EB /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		840230E313B2E828009713EB /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		840230E413B2E828009713EB /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		840230E513B2E828009713EB /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		840230E613B2E828009713EB /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		840A54A81388722500A09D7B /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		848193D913861AC500AE1FA0 /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		848193DA13861AC500AE1FA0 /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		848193DB13861AC500AE1FA0 /* GameViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GameViewController.xib; sourceTree = "<group>"; };
+		84938C6D13DA7FE4002BAAF3 /* Number_Star100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Number_Star100.png; sourceTree = "<group>"; };
+		84938C6F13DA899C002BAAF3 /* Smiling_Star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Smiling_Star.png; path = Classes/Smiling_Star.png; sourceTree = "<group>"; };
+		84938C7113DA8A13002BAAF3 /* NonSmiling_Star200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NonSmiling_Star200.png; sourceTree = "<group>"; };
+		8498D70513BECA08005FBD78 /* RightAnswer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = RightAnswer.mp3; sourceTree = "<group>"; };
+		8498D70913BECA58005FBD78 /* WrongAnswer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = WrongAnswer.mp3; sourceTree = "<group>"; };
+		8498D70B13BECCD4005FBD78 /* RightAnswer.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = RightAnswer.wav; sourceTree = "<group>"; };
+		8498D70D13BECDF4005FBD78 /* WrongAnswer.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = WrongAnswer.wav; sourceTree = "<group>"; };
+		84D7D6791395A93C000EE3F4 /* buttonback.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonback.png; sourceTree = "<group>"; };
+		84EA23E8139C6F96000367DB /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		84EA23EA139C6FC6000367DB /* comboStar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = comboStar.png; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Math Stars for iPad-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Math Stars for iPad-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		ED163F0A13F6FA46005903C0 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		ED6D6986143A75A70032ACFA /* MainWindow-iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "MainWindow-iPad.xib"; path = "iPad/MainWindow-iPad.xib"; sourceTree = "<group>"; };
+		EDB718C315BE2E66005D3C8C /* MathStarsIcon144pix.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MathStarsIcon144pix.png; sourceTree = "<group>"; };
+		EDEA621314F46CA60040E4F5 /* MathStarsIcon72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MathStarsIcon72.png; sourceTree = "<group>"; };
+		EDFB45A613F81C3800F85680 /* MathStarsIcon57pix.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MathStarsIcon57pix.png; sourceTree = "<group>"; };
+		EDFB45A813F81C4000F85680 /* MathStarsIcon114pix.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MathStarsIcon114pix.png; sourceTree = "<group>"; };
+		EDFB45AA13F81C4E00F85680 /* MathStarsIcon512pix.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MathStarsIcon512pix.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FE5817013BE5B3E00119D41 /* AudioToolbox.framework in Frameworks */,
+				8402305C13AE7E0B009713EB /* AVFoundation.framework in Frameworks */,
+				840A54A91388722500A09D7B /* GameKit.framework in Frameworks */,
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				ED163F0B13F6FA46005903C0 /* iAd.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* MathStarsAppDelegate.h */,
+				1D3623250D0F684500981E51 /* MathStarsAppDelegate.m */,
+				28D7ACF60DDB3853001CB0EB /* MathStarsViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* MathStarsViewController.m */,
+				2899E5210DE3E06400AC0155 /* MathStarsViewController.xib */,
+				848193D913861AC500AE1FA0 /* GameViewController.h */,
+				848193DA13861AC500AE1FA0 /* GameViewController.m */,
+				848193DB13861AC500AE1FA0 /* GameViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Math Stars for iPad.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				EDB718C315BE2E66005D3C8C /* MathStarsIcon144pix.png */,
+				EDFB45A813F81C4000F85680 /* MathStarsIcon114pix.png */,
+				EDEA621314F46CA60040E4F5 /* MathStarsIcon72.png */,
+				EDFB45A613F81C3800F85680 /* MathStarsIcon57pix.png */,
+				8421D12613F731370004B88A /* Images */,
+				4FE5816F13BE5B3E00119D41 /* AudioToolbox.framework */,
+				840230C513B2E7D9009713EB /* Facebook */,
+				8402305B13AE7E0B009713EB /* AVFoundation.framework */,
+				840A54A81388722500A09D7B /* GameKit.framework */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				ED6D6985143A75A60032ACFA /* iPad */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Math Stars for iPad_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				820130CF17EF93160026E531 /* Images.xcassets */,
+				8498D70B13BECCD4005FBD78 /* RightAnswer.wav */,
+				8498D70913BECA58005FBD78 /* WrongAnswer.mp3 */,
+				8498D70D13BECDF4005FBD78 /* WrongAnswer.wav */,
+				8498D70513BECA08005FBD78 /* RightAnswer.mp3 */,
+				8402305713AE7DFE009713EB /* Pinball.mp3 */,
+				8D1107310486CEB800E47090 /* Math Stars for iPad-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED163F0A13F6FA46005903C0 /* iAd.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		840230C513B2E7D9009713EB /* Facebook */ = {
+			isa = PBXGroup;
+			children = (
+				840230D913B2E812009713EB /* JSON */,
+				840230C613B2E7EA009713EB /* FBDialog.bundle */,
+				840230C713B2E7EA009713EB /* Facebook.h */,
+				840230C813B2E7EA009713EB /* FBConnect.h */,
+				840230C913B2E7EA009713EB /* FBDialog.h */,
+				840230CA13B2E7EA009713EB /* FBRequest.h */,
+				840230CB13B2E7EA009713EB /* facebook_ios_sdk_Prefix.pch */,
+				840230CC13B2E7EA009713EB /* Facebook.m */,
+				840230CD13B2E7EA009713EB /* FBDialog.m */,
+				840230CE13B2E7EA009713EB /* FBLoginDialog.m */,
+				840230CF13B2E7EA009713EB /* FBRequest.m */,
+				840230D013B2E7EA009713EB /* FBLoginDialog.h */,
+				840230D113B2E7EA009713EB /* FacebookManager.h */,
+				840230D213B2E7EA009713EB /* FacebookManager.m */,
+			);
+			name = Facebook;
+			sourceTree = "<group>";
+		};
+		840230D913B2E812009713EB /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				840230DA13B2E828009713EB /* JSON.h */,
+				840230DB13B2E828009713EB /* NSObject+SBJSON.h */,
+				840230DC13B2E828009713EB /* NSObject+SBJSON.m */,
+				840230DD13B2E828009713EB /* NSString+SBJSON.h */,
+				840230DE13B2E828009713EB /* NSString+SBJSON.m */,
+				840230DF13B2E828009713EB /* SBJSON.h */,
+				840230E013B2E828009713EB /* SBJSON.m */,
+				840230E113B2E828009713EB /* SBJsonBase.h */,
+				840230E213B2E828009713EB /* SBJsonBase.m */,
+				840230E313B2E828009713EB /* SBJsonParser.h */,
+				840230E413B2E828009713EB /* SBJsonParser.m */,
+				840230E513B2E828009713EB /* SBJsonWriter.h */,
+				840230E613B2E828009713EB /* SBJsonWriter.m */,
+			);
+			name = JSON;
+			sourceTree = "<group>";
+		};
+		8421D12613F731370004B88A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				EDFB45AA13F81C4E00F85680 /* MathStarsIcon512pix.png */,
+				4FE5817513BE643100119D41 /* icon.png */,
+				4FE5817313BE63CF00119D41 /* icon2x.png */,
+				84938C7113DA8A13002BAAF3 /* NonSmiling_Star200.png */,
+				84938C6F13DA899C002BAAF3 /* Smiling_Star.png */,
+				84938C6D13DA7FE4002BAAF3 /* Number_Star100.png */,
+				84EA23E8139C6F96000367DB /* star.png */,
+				84EA23EA139C6FC6000367DB /* comboStar.png */,
+				84D7D6791395A93C000EE3F4 /* buttonback.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		ED6D6985143A75A60032ACFA /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				ED6D6986143A75A70032ACFA /* MainWindow-iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Math Stars for iPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Math Stars for iPad" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Math Stars for iPad";
+			productName = MonkeyMath;
+			productReference = 1D6058910D05DD3D006BFB54 /* Math Stars for iPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Math Stars for iPad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Math Stars for iPad */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* MathStarsViewController.xib in Resources */,
+				848193DD13861AC500AE1FA0 /* GameViewController.xib in Resources */,
+				84D7D67A1395A93C000EE3F4 /* buttonback.png in Resources */,
+				84EA23E9139C6F96000367DB /* star.png in Resources */,
+				84EA23EB139C6FC6000367DB /* comboStar.png in Resources */,
+				8402305913AE7DFE009713EB /* Pinball.mp3 in Resources */,
+				840230D313B2E7EA009713EB /* FBDialog.bundle in Resources */,
+				4FE5817413BE63CF00119D41 /* icon2x.png in Resources */,
+				820130D017EF93160026E531 /* Images.xcassets in Resources */,
+				4FE5817613BE643100119D41 /* icon.png in Resources */,
+				8498D70713BECA08005FBD78 /* RightAnswer.mp3 in Resources */,
+				8498D70A13BECA58005FBD78 /* WrongAnswer.mp3 in Resources */,
+				8498D70C13BECCD4005FBD78 /* RightAnswer.wav in Resources */,
+				8498D70E13BECDF4005FBD78 /* WrongAnswer.wav in Resources */,
+				84938C6E13DA7FE4002BAAF3 /* Number_Star100.png in Resources */,
+				84938C7013DA899C002BAAF3 /* Smiling_Star.png in Resources */,
+				84938C7213DA8A13002BAAF3 /* NonSmiling_Star200.png in Resources */,
+				EDFB45A713F81C3800F85680 /* MathStarsIcon57pix.png in Resources */,
+				EDFB45A913F81C4000F85680 /* MathStarsIcon114pix.png in Resources */,
+				EDFB45AB13F81C4E00F85680 /* MathStarsIcon512pix.png in Resources */,
+				ED6D6987143A75A70032ACFA /* MainWindow-iPad.xib in Resources */,
+				EDEA621414F46CA60040E4F5 /* MathStarsIcon72.png in Resources */,
+				EDB718C415BE2E66005D3C8C /* MathStarsIcon144pix.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* MathStarsAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* MathStarsViewController.m in Sources */,
+				848193DC13861AC500AE1FA0 /* GameViewController.m in Sources */,
+				840230D413B2E7EA009713EB /* Facebook.m in Sources */,
+				840230D513B2E7EA009713EB /* FBDialog.m in Sources */,
+				840230D613B2E7EA009713EB /* FBLoginDialog.m in Sources */,
+				840230D713B2E7EA009713EB /* FBRequest.m in Sources */,
+				840230D813B2E7EA009713EB /* FacebookManager.m in Sources */,
+				840230E713B2E828009713EB /* NSObject+SBJSON.m in Sources */,
+				840230E813B2E828009713EB /* NSString+SBJSON.m in Sources */,
+				840230E913B2E828009713EB /* SBJSON.m in Sources */,
+				840230EA13B2E828009713EB /* SBJsonBase.m in Sources */,
+				840230EB13B2E828009713EB /* SBJsonParser.m in Sources */,
+				840230EC13B2E828009713EB /* SBJsonWriter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Math Stars for iPad_Prefix.pch";
+				INFOPLIST_FILE = "Math Stars for iPad-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "Math Stars for iPad";
+				PROVISIONING_PROFILE = "F5751A70-0A4C-4FA3-A40E-40932FCF57E3";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "F5751A70-0A4C-4FA3-A40E-40932FCF57E3";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Laura J. White";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Laura J. White";
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Math Stars for iPad_Prefix.pch";
+				INFOPLIST_FILE = "Math Stars for iPad-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "Math Stars for iPad";
+				PROVISIONING_PROFILE = "BFEE42FF-96BB-4A04-8DB7-C1233283551F";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "BFEE42FF-96BB-4A04-8DB7-C1233283551F";
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Laura J. White";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Laura J. White";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PROVISIONING_PROFILE = "84521D69-87A0-4DC9-9E58-346559C0E8C7";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "03926B11-F382-4F18-9B1D-9D63D4F70ED8";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Laura J. White";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Laura J. White";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "84521D69-87A0-4DC9-9E58-346559C0E8C7";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "84521D69-87A0-4DC9-9E58-346559C0E8C7";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		ED64091813BF5AD4001761AA /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Laura J. White";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Laura J. White";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "84521D69-87A0-4DC9-9E58-346559C0E8C7";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "84521D69-87A0-4DC9-9E58-346559C0E8C7";
+				SDKROOT = iphoneos;
+			};
+			name = Distribution;
+		};
+		ED64091913BF5AD4001761AA /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Laura J. White";
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Math Stars for iPad_Prefix.pch";
+				INFOPLIST_FILE = "Math Stars for iPad-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "Math Stars for iPad";
+				PROVISIONING_PROFILE = "BFEE42FF-96BB-4A04-8DB7-C1233283551F";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "BFEE42FF-96BB-4A04-8DB7-C1233283551F";
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Math Stars for iPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				ED64091913BF5AD4001761AA /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Math Stars for iPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				ED64091813BF5AD4001761AA /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
